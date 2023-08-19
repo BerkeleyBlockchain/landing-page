@@ -1,0 +1,88 @@
+
+    @import ../../styles/helpers
+
+.section
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    min-height: 816px
+    padding: 100px 
+    +d
+        min-height: 600px
+        padding: 80px 0
+    +m
+        display: flex
+        flex-direction: column
+        min-height: auto
+        padding: 32px 0 64px
+
+    &.imageOnLeft
+        .gallery
+            order: 1
+        .wrap
+            order: 2
+
+    &.imageOnRight
+        .gallery
+            order: 2
+            +m
+                order: 1
+        .wrap
+            order: 1
+            +m
+                order: 2
+
+.container
+    display: flex
+    align-items: center
+    +m
+        display: flex
+        flex-direction: column
+    
+
+.wrap
+    position: relative
+    z-index: 3
+    order: 2
+    max-width: 650px
+    margin-left: 100px
+    +t
+        max-width: 360px
+    +m
+        margin-left: 0
+
+.title
+    margin-bottom: 32px
+
+.text
+    margin-bottom: 40px
+    color: $neutrals4
+
+.gallery
+    order: 1
+    width: 612px
+    pointer-events: none
+    +d
+        width: 390px
+    +t
+        right: calc(50% - 380px)
+    +m
+        top: auto
+        right: auto
+        width: 100%
+        margin: 48px auto 48px
+        transform: translateY(0)
+    img
+        max-width: 100%
+
+
+.preview
+    &:first-child
+        position: relative
+        z-index: 2
+    img
+        width: 100%
+        +m
+            width: 75%
+            
