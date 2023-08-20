@@ -10,11 +10,7 @@ const Contact = () => {
   const intro = {
     tag: "Contact",
     title: "Get in Touch.",
-    content: (
-      <div>
-        Choose one of the options below to send us any question or inquireis!
-      </div>
-    ),
+    content: "",
     button: [],
   };
 
@@ -26,7 +22,7 @@ const Contact = () => {
       alt: "user",
       subtitle: (
         <a href="mailto:education@blockchain.berkeley.edu">
-          education@blockchain.berkeley.edu
+          consulting@blockchain.berkeley.edu
         </a>
       ),
       content:
@@ -39,7 +35,7 @@ const Contact = () => {
       alt: "user",
       subtitle: (
         <a href="mailto:consulting@blockchain.berkeley.edu">
-          consulting@blockchain.berkeley.edu
+          education@blockchain.berkeley.edu
         </a>
       ),
       content:

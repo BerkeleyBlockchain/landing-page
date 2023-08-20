@@ -81,7 +81,7 @@ const Headers = () => {
         >
           <Image
             className={styles.pic}
-            src="/images/logo-dark.svg"
+            src="/images/logo-light.png"
             srcDark="/images/logo-light.png"
             alt="Blockchain at Berkeley"
           />

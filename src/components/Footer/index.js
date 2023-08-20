@@ -71,7 +71,7 @@ const Footer = () => {
                             <Link className={styles.logo} to="/">
                                 <Image
                                     className={styles.pic}
-                                    src="/images/logo-dark.svg"
+                                    src="/images/logo-light.png"
                                     srcDark="/images/logo-light.png"
                                     alt="Blockcahin at Berkeely"
                                 />
