@@ -296,7 +296,7 @@ const people = [
     position: ["Design Consultant"],
   },
   {
-    name: "Sumukh Rashmi Suresh",
+    name: "Sumukh Suresh",
     image: "images/content/avatar.png",
     position: ["Business Consultant"],
   },
