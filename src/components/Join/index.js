@@ -27,9 +27,18 @@ const Join = () => {
           actively recruiting for our research, design, development, business,
           and education programs.
         </div>
-        <Link className={cn("button-stroke", styles.button)} to={""}>
-          Application Opening Soon
-        </Link>
+        <div className={styles.flex}>
+          <Link className={cn("button-stroke", styles.button)} to={""}>
+            Application Opening Soon
+          </Link>
+          <Link
+            className={cn("button", styles.button)}
+            to={"https://tinyurl.com/bab-chats"}
+            target="_blank"
+          >
+            Coffee Chat Signup
+          </Link>
+        </div>
       </div>
     </div>
   );

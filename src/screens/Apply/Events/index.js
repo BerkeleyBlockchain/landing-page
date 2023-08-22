@@ -19,7 +19,7 @@ const items = [
     color: "#23262F",
     image: "/images/content/star.svg",
     status: "outlined",
-    statusContent: "In-Person",
+    statusContent: "2580 Bancroft Way",
   },
   {
     title: "Women’s Mixer",
