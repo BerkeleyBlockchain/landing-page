@@ -439,7 +439,7 @@ const Team = () => {
               })
               .map((x, index) => (
                 <ScrollParallax className={styles.slide} key={index}>
-                  <Item className={styles.item} item={x} category={direction} />
+                  <Item className={styles.item} item={x} category={direction} imgSrc={`images/avatars/${x.name.replace(" ", "")}.jpg`}/>
                 </ScrollParallax>
               ))
               }

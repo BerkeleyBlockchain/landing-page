@@ -3,7 +3,7 @@ import cn from "classnames";
 import styles from "./Item.module.sass";
 import ModalTrainer from "../../../../components/ModalTrainer";
 
-const Item = ({ item, className, category }) => {
+const Item = ({ item, className, category, imgSrc}) => {
   const [visibleModal, setVisibleModal] = useState(false);
 
   const include = {
@@ -40,7 +40,7 @@ const Item = ({ item, className, category }) => {
       >
         <div className={styles.avatar}>
           <img
-            src={`images/avatars/${item.name.replace(" ", "")}.jpg`}
+            src={imgSrc}
             onError={replaceImage}
             alt="Avatar"
           />
