@@ -52,7 +52,7 @@ const items = [
     color: "#23262F",
     image: "/images/content/info.svg",
     status: "outlined",
-    statusContent: "VLSB 2040",
+    statusContent: "VLSB 2060",
   },
   {
     title: "Application Due",
