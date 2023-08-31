@@ -28,8 +28,8 @@ const Join = () => {
           and education programs.
         </div>
         <div className={styles.flex}>
-          <Link className={cn("button", styles.button)} to={"https://airtable.com/appO0A8BSCHcqfHcR/shrPKaQsjldBWa4h2"} target="_blank">
-            Application Link
+          <Link className={cn("button-stroke", styles.button)} to={""}>
+            Application Closed
           </Link>
           <Link
             className={cn("button", styles.button)}
