@@ -1,4 +1,4 @@
-To run this application, you need to install Yarn. You can check if Yarn is installed on your PC with the command `yarn --version`
+This is the b@b landing page hosted on [https://blockchain.berkeley.edu](blockchain.berkeley.edu). Built by b@b design department fall 2023 in React.
 
 ## Available Scripts
 
