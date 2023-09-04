@@ -1,4 +1,5 @@
-This is the b@b landing page hosted on [https://blockchain.berkeley.edu](blockchain.berkeley.edu). Built by b@b design department fall 2023 in React.
+## Welcome
+This is the b@b landing page hosted on [https://blockchain.berkeley.edu](blockchain.berkeley.edu). Built & maitained by b@b design department. The site is written in React.
 
 ## Available Scripts
 
