@@ -3,7 +3,7 @@ import cn from "classnames";
 import { Link } from "react-router-dom";
 import styles from "./Overview.module.sass";
 
-const Overview = ({ className, data }) => {
+const Overview = ({ className, data, scrollToRef }) => {
   return (
     <div className={cn(className, styles.section)}>
       <div className={cn("container", styles.container)}>
@@ -16,7 +16,16 @@ const Overview = ({ className, data }) => {
         <div className={styles.text}>
           {data.content}
         </div>
-        {(data.button.length > 0) && <Link className={cn("button", styles.button)} to={data.button[1]}>
+        {(data.button.length > 0) && 
+          <Link 
+            className={cn("button", styles.button)} 
+            to={scrollToRef ? null : data.button[1]} 
+            onClick={() => {
+              if (scrollToRef) {
+                scrollToRef.current.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
          {data.button[0]}
         </Link>}
         

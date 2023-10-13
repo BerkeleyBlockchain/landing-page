@@ -21,12 +21,16 @@ const Hero = ({ scrollToRef }) => {
                     blockchain innovation via education, research, and consulting.
                     </div>
                     <div className={styles.btns}>
-                        <Link
+                        <div
                             className={cn("button", styles.button)}
-                            to="/apply"
+                            onClick={() =>
+                                scrollToRef.current.scrollIntoView({
+                                    behavior: "smooth",
+                                })
+                            }
                         >
-                            Apply Now
-                        </Link>
+                            Explore
+                        </div>
                     </div>
                 </div>
                 <ScrollButton

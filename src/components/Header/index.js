@@ -12,8 +12,8 @@ const navLinks = [
     url: "/about",
   },
   {
-    title: "Hackathon",
-    url: "/hackathon",
+    title: "Education",
+    url: "/education",
   },
   {
     title: "Grants",

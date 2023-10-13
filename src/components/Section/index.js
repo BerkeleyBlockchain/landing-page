@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 import styles from "./Section.module.sass";
 import ScrollParallax from "../ScrollParallax";
 
-const Section = ({ scrollToRef, data, imageOnLeft }) => {
+const Section = React.forwardRef(({ data, imageOnLeft }, ref) => {
   const sectionClass = cn(styles.section, {
     [styles.imageOnLeft]: imageOnLeft,
     [styles.imageOnRight]: !imageOnLeft,
   });
 
   return (
-    <div className={sectionClass} ref={scrollToRef}>
+    <div className={sectionClass} ref={ref}>
       <div className={cn("container", styles.container)}>
         <div className={styles.gallery}>
          
@@ -37,6 +37,6 @@ const Section = ({ scrollToRef, data, imageOnLeft }) => {
       </div>
     </div>
   );
-};
+});
 
 export default Section;

@@ -9,8 +9,8 @@ import useDarkMode from 'use-dark-mode';
 import Business from "./screens/Business";
 import Research from "./screens/Research";
 import Apply from "./screens/Apply";
-import Hackathon from "./screens/Hackathon";
 import Contact from "./screens/Contact";
+import Education from "./screens/Education";
 
 function App() {
     const darkMode = useDarkMode(true); 
@@ -37,10 +37,10 @@ function App() {
                     }
                 />
                 <Route
-                    path="hackathon"
+                    path="education"
                     element={
                         <Page>
-                            <Hackathon />
+                            <Education />
                         </Page>
                     }
                 />
