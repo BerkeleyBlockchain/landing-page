@@ -17,7 +17,7 @@ const Join = () => {
             alt="Blockchain"
           />
         </div>
-        <div className={cn("stage-small", styles.stage)}>Fall 2023</div>
+        <div className={cn("stage-small", styles.stage)}>Spring 2024</div>
         <h2 className={cn("h2", styles.title)}>Membership Application</h2>
         <div className={styles.text}>
           Blockchain at Berkeley is a student-led Blockchain group focused on
@@ -28,16 +28,15 @@ const Join = () => {
           and education programs.
         </div>
         <div className={styles.flex}>
-          <Link className={cn("button-stroke", styles.button)} to={""}>
-            Application Closed
+          <Link className={cn("button-indicator", styles.button)} to={""}>
+            Application Available Soon
           </Link>
-          <Link
-            className={cn("button", styles.button)}
-            to={"https://tinyurl.com/bab-chats"}
-            target="_blank"
+          {/* <Link
+            className={cn("button-stroke", styles.button)}
+            to={""}
           >
-            Coffee Chat Signup
-          </Link>
+            Coffee Chat Opening Soon
+          </Link> */}
         </div>
       </div>
     </div>

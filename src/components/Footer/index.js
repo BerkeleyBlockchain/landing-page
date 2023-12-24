@@ -13,8 +13,8 @@ const menu = [
         url: "/about",
     },
     {
-        title: "Hackathon",
-        url: "/hackathon",
+        title: "Education",
+        url: "/education",
     },
     {
         title: "Grants",
