@@ -11,6 +11,7 @@ import Research from "./screens/Research";
 import Apply from "./screens/Apply";
 import Contact from "./screens/Contact";
 import Education from "./screens/Education";
+import Design from "./screens/Design";
 
 function App() {
     const darkMode = useDarkMode(true); 
@@ -41,6 +42,14 @@ function App() {
                     element={
                         <Page>
                             <Education />
+                        </Page>
+                    }
+                />
+                <Route
+                    path="design"
+                    element={
+                        <Page>
+                            <Design />
                         </Page>
                     }
                 />
