@@ -25,6 +25,10 @@ const menu = [
         url: "/business",
     },
     {
+        title: "Design",
+        url: "/design",
+    },
+    {
         title: "Research",
         url: "/research",
     },
@@ -73,7 +77,7 @@ const Footer = () => {
                                     className={styles.pic}
                                     src="/images/logo-light.png"
                                     srcDark="/images/logo-light.png"
-                                    alt="Blockcahin at Berkeely"
+                                    alt="Blockcahin at Berkeley"
                                 />
                             </Link>
                             {/* <Theme className={styles.theme} /> */}
@@ -96,8 +100,8 @@ const Footer = () => {
                                         className={cn(styles.link, {
                                             [styles.active]: pathname === x.url,
                                         })}
-                                        target={index === 5 ? "_blank" : undefined}
-                                        rel={index === 5 ? "noopener noreferrer" : undefined}
+                                        target={index === 6 ? "_blank" : undefined}
+                                        rel={index === 6 ? "noopener noreferrer" : undefined}
                                         to={x.url}
                                         key={index}
                                     >
