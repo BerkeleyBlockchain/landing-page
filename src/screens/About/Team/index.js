@@ -19,316 +19,198 @@ const rank = [
   "President",
   "Head of Internal",
   "Head of External",
-  "Head of Education",
   "Head of Consulting",
   "Head of Design",
-  "Head of Xcelerator",
+  "Head of Education",
   "Head of Research",
 ]
 const include = {
   Leadership: ["Leadership"],
   Consulting: [
     "Head of Consulting",
-    "Dev Consultant",
-    "Head of Design",
-    "Design Consultant",
-    "Business Consultant",
+    "Consultant",
   ],
-  Education: ["Head of Education", "Education"],
-  Design: ["Head of Design", "Design Consultant"],
+  Education: ["Head of Education", "Edu"],
+  Design: ["Head of Design", "Designer"],
   Research: ["Head of Research", "Research"],
 };
 
 const people = [
   {
-    name: "Aayushi Jain",
-    image: "images/content/avatar.png",
-    position: ["Head of Education", "Leadership"],
-  },
-  {
-    name: "Aditya Bhandari",
-    image: "images/content/avatar.png",
-    position: ["Education"],
-  },
-  {
-    name: "Aditya Goel",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Adrian Kwan",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Akshaan Ahuja",
-    image: "images/content/avatar.png",
-    position: ["Design Consultant"],
-  },
-  {
-    name: "Alexander Wieland",
-    image: "images/content/avatar.png",
-    position: ["Research"],
-  },
-  {
-    name: "Arjun Patrawala",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Aryan Bhadouria",
-    image: "images/content/avatar.png",
-    position: ["Business Consultant"],
-  },
-  {
-    name: "Belle Tangkuptanon",
-    image: "images/content/avatar.png",
-    position: ["Head of Xcelerator", "Leadership"],
-  },
-  {
-    name: "Brendan Wong",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Brent Friedman",
-    image: "images/content/avatar.png",
-    position: ["Education"],
-  },
-  {
-    name: "Brian Phan",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
+    name: "Gurnoor Narula",
+    position: ["President", "Leadership"],
   },
   {
     name: "Daniel Gushchyan",
-    image: "images/content/avatar.png",
     position: ["President", "Leadership"],
   },
   {
-    name: "Derrick Cui",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
+    name: "Zachary Brandt",
+    position: ["Consulting"],
   },
   {
-    name: "Dhruv Gautam",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant", "Research"],
-  },
-  {
-    name: "Elizaveta Belkina",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Emma Guo",
-    image: "images/content/avatar.png",
-    position: ["Research"],
-  },
-  {
-    name: "Gargi Deshpande",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Gurnoor Narula",
-    image: "images/content/avatar.png",
-    position: ["President", "Leadership"],
-  },
-  {
-    name: "Hamza Mounir",
-    image: "images/content/avatar.png",
-    position: ["Education"],
-  },
-  {
-    name: "Harry Yuan",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant", "Research"],
-  },
-  {
-    name: "Heather Ding",
-    image: "images/content/avatar.png",
-    position: ["Education"],
-  },
-  {
-    name: "Isaac Ong",
-    image: "images/content/avatar.png",
-    position: ["Research"],
-  },
-  {
-    name: "Jake Mok",
-    image: "images/content/avatar.png",
-    position: ["Head of Education", "Leadership"],
-  },
-  {
-    name: "Jay Tipirneni",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant", "Research"],
-  },
-  {
-    name: "Jaylem Brar",
-    image: "images/content/avatar.png",
-    position: ["Education"],
-  },
-  {
-    name: "Jessica Situ",
-    image: "images/content/avatar.png",
-    position: ["Design Consultant"],
-  },
-  {
-    name: "Keshav Singhal",
-    image: "images/content/avatar.png",
-    position: ["Head of Xcelerator", "Leadership"],
-  },
-  {
-    name: "Kyle Wonzen",
-    image: "images/content/avatar.png",
-    position: ["Design Consultant"],
-  },
-  {
-    name: "Lawson Graham",
-    image: "images/content/avatar.png",
-    position: ["Head of Consulting", "Leadership"],
-  },
-  {
-    name: "Maria Xu",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant", "Design Consultant"],
-  },
-  {
-    name: "Matthew Fogel",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Megan Ho",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Mohammed Alobaidi",
-    image: "images/content/avatar.png",
-    position: ["Head of Design", "Leadership"],
-  },
-  {
-    name: "Naman Kapasi",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Niall Mandal",
-    image: "images/content/avatar.png",
-    position: ["Head of Research", "Leadership"],
-  },
-  {
-    name: "Nidhi Shanmugam",
-    image: "images/content/avatar.png",
-    position: ["Business Consultant"],
-  },
-  {
-    name: "Patrick Cui",
-    image: "images/content/avatar.png",
-    position: ["Head of Design", "Leadership"],
-  },
-  {
-    name: "Paul Bryzek",
-    image: "images/content/avatar.png",
-    position: ["Business Consultant"],
-  },
-  {
-    name: "Qianhua Ge",
-    image: "images/content/avatar.png",
-    position: ["Design Consultant"],
-  },
-  {
-    name: "Ravi Riley",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Richa Ray",
-    image: "images/content/avatar.png",
-    position: ["Head of External", "Leadership"],
-  },
-  {
-    name: "Riddhi Patel",
-    image: "images/content/avatar.png",
-    position: ["Education"],
-  },
-  {
-    name: "Rishi Thakar",
-    image: "images/content/avatar.png",
-    position: ["Design Consultant"],
-  },
-  {
-    name: "Riteka Murugesh",
-    image: "images/content/avatar.png",
-    position: ["Education"],
-  },
-  {
-    name: "Riya Bhatia",
-    image: "images/content/avatar.png",
-    position: ["Design Consultant"],
-  },
-  {
-    name: "Rohan Khandelwal",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Sena Hazir",
-    image: "images/content/avatar.png",
-    position: ["Head of Consulting", "Leadership"],
-  },
-  {
-    name: "Shubhan Dua",
-    image: "images/content/avatar.png",
-    position: ["Business Consultant"],
-  },
-  {
-    name: "Sid Sharma",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant", "Education", "Research"],
-  },
-  {
-    name: "Sophia Matthews",
-    image: "images/content/avatar.png",
-    position: ["Design Consultant"],
-  },
-  {
-    name: "Sumukh Suresh",
-    image: "images/content/avatar.png",
-    position: ["Business Consultant"],
-  },
-  {
-    name: "Tiffany Liu",
-    image: "images/content/avatar.png",
-    position: ["Head of Internal", "Leadership"],
-  },
-  {
-    name: "Tim Guo",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant", "Education", "Research"],
-  },
-  {
-    name: "Tommy Hang",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
-  },
-  {
-    name: "Trevor Trinh",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
+    name: "Varun Vaidya",
+    position: ["Consulting"],
   },
   {
     name: "Vardhan Shorewala",
-    image: "images/content/avatar.png",
-    position: ["Dev Consultant"],
+    position: ["Consultant"],
   },
   {
-    name: "William Zeng",
-    image: "images/content/avatar.png",
-    position: ["Education"],
+    name: "Trevor Trinh",
+    position: ["Consultant"],
+  },
+  {
+    name: "Tommy Hang",
+    position: ["Head of Consulting", "Leadership"],
+  },
+  {
+    name: "Teo Honda-Scully",
+    position: ["Consultant"],
+  },
+  {
+    name: "Tanay Appannagari",
+    position: ["Consultant"],
+  },
+  {
+    name: "Rohan Patra",
+    position: ["Consultant"],
+  },
+  {
+    name: "Richa Ray",
+    position: ["Consultant"],
+  },
+  {
+    name: "Ravi Riley",
+    position: ["Head of Consulting", "Leadership"],
+  },
+  {
+    name: "Jay Tipirneni",
+    position: ["Consultant", "Research"],
+  },
+  {
+    name: "Haluk Cem Demirhan",
+    position: ["Consultant"],
+  },
+  {
+    name: "Gargi Deshpande",
+    position: ["Consultant"],
+  },
+  {
+    name: "Ezra Tramble",
+    position: ["Consultant"],
+  },
+  {
+    name: "Brendan Wong",
+    position: ["Consultant"],
+  },
+  {
+    name: "Adrian Kwan",
+    position: ["Consultant"],
+  },
+  {
+    name: "Sophia Matthews",
+    position: ["Designer"],
+  },
+  {
+    name: "Riya Bhatia",
+    position: ["Designer"],
+  },
+  {
+    name: "Rishi Thakar",
+    position: ["Designer"],
+  },
+  {
+    name: "Patrick Cui",
+    position: ["Head of Design", "Leadership"],
+  },
+  {
+    name: "Mohammed Alobaidi",
+    position: ["Head of Design", "Leadership"],
+  },
+  {
+    name: "Jessica Situ",
+    position: ["Designer"],
+  },
+  {
+    name: "Brian Phan",
+    position: ["Designer"],
+  },
+  {
+    name: "Arushi Arora",
+    position: ["Designer"],
+  },
+  {
+    name: "Naman Kapasi",
+    position: ["Edu"],
+  },
+  {
+    name: "Mehaa Amirthalingam",
+    position: ["Edu"],
+  },
+  {
+    name: "Krishna Mandal",
+    position: ["Edu"],
+  },
+  {
+    name: "Jaylem Brar",
+    position: ["Edu"],
+  },
+  {
+    name: "Fischer Zhang",
+    position: ["Edu"],
+  },
+  {
+    name: "Brent Friedman",
+    position: ["Head of Education", "Leadership"],
+  },
+  {
+    name: "Alyssa Chen",
+    position: ["Edu"],
+  },
+  {
+    name: "Aditya Goel",
+    position: ["Edu"],
+  },
+  {
+    name: "Aayushi Jain",
+    position: ["Edu"],
+  },
+  {
+    name: "Tiffany Liu",
+    position: ["Head of Internal", "Leadership"],
+  },
+  {
+    name: "Riddhi Patel",
+    position: ["Head of External", "Leadership"],
+  },
+  {
+    name: "Keshav Singhal",
+    position: ["Head of Xcelerator"],
+  },
+  {
+    name: "Belle Tangkuptanon",
+    position: ["Head of Xcelerator"],
+  },
+  {
+    name: "Aryan Bhadouria",
+    position: ["Internal/External"],
+  },
+  {
+    name: "Akshat Sharma",
+    position: ["Xcelerator"],
+  },
+  {
+    name: "Niall Mandal",
+    position: ["Head of Research", "Leadership"],
+  },
+  {
+    name: "Dhruv Gautam",
+    position: ["Research"],
+  },
+  {
+    name: "Derrick Cui",
+    position: ["Research"],
   },
 ];
 
@@ -376,6 +258,14 @@ const Team = () => {
     return false;
   }
 
+  /**
+   * This function returns the position of a team member based on the selected category.
+   * If the selected category is "All" or "Leadership", it returns the first position of the member that is not "Leadership".
+   * Otherwise, it returns the first position of the member that is included in the selected category.
+   *
+   * @param {Array} input - The positions of a team member.
+   * @returns {string} - The position of the team member based on the selected category.
+   */
   function position(input) {
     if (direction === "All" || direction === "Leadership") {
       return input.filter((x) => x !== "Leadership")[0]
@@ -435,8 +325,13 @@ const Team = () => {
                 } else {
                   bScore = rank.indexOf(position(b.position))
                 }
-                return aScore - bScore;
+                if (aScore === bScore) {
+                  return a.name.localeCompare(b.name);
+                } else {
+                  return aScore - bScore;
+                }
               })
+              
               .map((x, index) => (
                 <ScrollParallax className={styles.slide} key={index}>
                   <Item className={styles.item} item={x} category={direction} imgSrc={`images/avatars/${x.name.replace(" ", "")}.jpg`}/>
