@@ -25,10 +25,34 @@ const Design = () => {
     asset: "simplefi",
   };
 
+  const items = [
+    {
+      title: "UX Research + Prototyping",
+      image: "/images/content/design-pic-1.png",
+      image2x: "/images/content/design-pic-1@2x.png",
+      content:
+        "Each semester, we embark on a journey to unravel a key question in the realm of blockchain, guiding our path from research and ideation to prototyping.",
+    },
+    {
+      title: "Quickly find the class you want",
+      image: "/images/content/design-pic-2.png",
+      image2x: "/images/content/design-pic-2@2x.png",
+      content:
+        "We craft high-fidelity prototypes for our consulting clients, fostering a culture of mutual enhancement where valuable feedback refines and elevates our collective design expertise.",
+    },
+    {
+      title: "Brand Design + Marketing",
+      image: "/images/content/design-pic-3.png",
+      image2x: "/images/content/design-pic-3@2x.png",
+      content:
+        "We meticulously shape the brand identity of our organization and design comprehensive marketing materials. Our brand is a reflection of our commitment to innovation turning great ideas into great designs.",
+    },
+  ];
+
   return (
     <>
       <Overview className="section" data={intro} scrollToRef={scrollToRef}/>
-      <Initatives className="section" ref={scrollToRef} />
+      <Initatives className="section" items={items} title="Our Initiatives" description="We are the team that curates the brand of our organization, deliver high-fidelity prototypes for consulting projects, and spearhead UX research initiatives." ref={scrollToRef} />
       <Section data={ux} imageOnLeft={true} />
     </>
   );

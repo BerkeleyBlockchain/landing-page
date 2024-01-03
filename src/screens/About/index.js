@@ -21,32 +21,7 @@ const About = () => {
     desc: "We hold close relationships with local conferences and blockchain projects created by Blockchain at Berkeley alumni."
   }
 
-  const items = [
-    {
-      title: "Startups Founded",
-      counter: "10+",
-      images: "/images/content/user-yellow.svg",
-      alt: "user",
-    },
-    {
-      title: "Consulting Projects",
-      counter: "40+",
-      images: "/images/content/coin.svg",
-      alt: "electrical-plus",
-    },
-    {
-      title: "Partners Worldwide",
-      counter: "20+",
-      images: "/images/content/globe.svg",
-      alt: "flag",
-    },
-    {
-      title: "EdX Students",
-      counter: "200k+",
-      images: "/images/content/flag-yellow.svg",
-      alt: "education",
-    },
-  ];
+  
   
   const data = [
     {
@@ -130,7 +105,6 @@ const About = () => {
                 classNameTitle="h4"
                 title=""
             />
-      <Stats items={items} />
       <Clients headerInfo={alumniHeader} data={data} />
       <Team />
     </>

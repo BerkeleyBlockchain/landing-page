@@ -7,35 +7,11 @@ import styles from "./Initiatives.module.sass";
 import Icon from "../../../components/Icon";
 import ScrollParallax from "../../../components/ScrollParallax";
 
-const items = [
-  {
-    title: "UX Research + Prototyping",
-    image: "/images/content/design-pic-1.png",
-    image2x: "/images/content/design-pic-1@2x.png",
-    content:
-      "Each semester, we embark on a journey to unravel a key question in the realm of blockchain, guiding our path from research and ideation to prototyping.",
-  },
-  {
-    title: "Quickly find the class you want",
-    image: "/images/content/design-pic-2.png",
-    image2x: "/images/content/design-pic-2@2x.png",
-    content:
-      "We craft high-fidelity prototypes for our consulting clients, fostering a culture of mutual enhancement where valuable feedback refines and elevates our collective design expertise.",
-  },
-  {
-    title: "Brand Design + Marketing",
-    image: "/images/content/design-pic-3.png",
-    image2x: "/images/content/design-pic-3@2x.png",
-    content:
-      "We meticulously shape the brand identity of our organization and design comprehensive marketing materials. Our brand is a reflection of our commitment to innovation turning great ideas into great designs.",
-  },
-];
-
 const SlickArrow = ({ currentSlide, slideCount, children, ...props }) => (
   <button {...props}>{children}</button>
 );
 
-const Initatives = React.forwardRef(({ className }, ref) => {
+const Initatives = React.forwardRef(({ className, items, title, description }, ref) => {
   const settings = {
     infinite: true,
     speed: 500,
@@ -71,14 +47,14 @@ const Initatives = React.forwardRef(({ className }, ref) => {
       <div className={cn("section-pb", styles.section)}>
         <div className={cn("container", styles.container)}>
           <div className={styles.head}>
-            <h2 className={cn("h2", styles.title)}>Our Initiatives</h2>
+            <h2 className={cn("h2", styles.title)}>{title}</h2>
             <div className={styles.info}>
-              We are the team that curates the brand of our organization, deliver high-fidelity prototypes for consulting projects, and spearhead UX research initiatives.  {" "}
+              {description} {" "}
             </div>
           </div>
           <div className={styles.wrap}>
             <Slider
-              className={cn("lifestyle-slider", styles.slider)}
+            className={cn("lifestyle-slider", styles.slider)}
               {...settings}
             >
               {items.map((x, index) => (
@@ -89,13 +65,21 @@ const Initatives = React.forwardRef(({ className }, ref) => {
                         <div className={styles.number}>0{index + 1}.</div>
                         <div className={styles.category}>{x.title}</div>
                         <div className={styles.content}>{x.content}</div>
+                        <div className={styles.detailButton}>
+                        {x.url && (
+                          <Link to={x.url} className={cn("button-small", styles.button)}>
+                            Explore
+                          </Link>
+                        )}
+                        </div>
+                        
                       </div>
                     </div>
                     <div className={styles.col}>
                       <img
                         srcSet={`${x.image2x} 2x`}
                         src={x.image}
-                        alt="Lifestyle"
+                        alt={x.title}
                       />
                     </div>
                   </div>

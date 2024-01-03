@@ -78,7 +78,7 @@ const ValueProps = ({ className, scrollToRef }) => {
             and conducting open source research.
           </div>
         </div>
-        <div className={styles.list}>
+        {/* <div className={styles.list}>
           {items.map((x, index) => (
             <ScrollParallax className={styles.item} key={index}>
               <div
@@ -91,7 +91,7 @@ const ValueProps = ({ className, scrollToRef }) => {
               <div className={styles.content}>{x.content}</div>
             </ScrollParallax>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

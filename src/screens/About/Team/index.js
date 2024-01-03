@@ -46,11 +46,11 @@ const people = [
   },
   {
     name: "Zachary Brandt",
-    position: ["Consulting"],
+    position: ["Consultant"],
   },
   {
     name: "Varun Vaidya",
-    position: ["Consulting"],
+    position: ["Consultant"],
   },
   {
     name: "Vardhan Shorewala",
@@ -280,7 +280,7 @@ const Team = () => {
           <h2 className={cn("h2", styles.title)}>Meet the Team</h2>
           <div className={styles.info}>
             We’re a student-run organization that promotes innovation in the
-            avatar industry through education, consulting, design, and research.
+            blockchain industry through education, consulting, design, and research.
             We aren’t purely professional, we’re a team of friends,
             collaborators, and students of likeminded peers who ideate, and
             adventure together.
