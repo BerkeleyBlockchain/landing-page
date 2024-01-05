@@ -17,8 +17,7 @@ const Hero = ({ scrollToRef }) => {
                         Berkeley's Hub for Blockchain Innovation.
                     </h1>
                     <div className={styles.text}>
-                    We're a student-run organization at UC Berkeley focused on 
-                    blockchain innovation via education, research, and consulting.
+                    We're a student-run organization at UC Berkeley focused on blockchain innovation via consulting, education, design, and research.
                     </div>
                     <div className={styles.btns}>
                         <div

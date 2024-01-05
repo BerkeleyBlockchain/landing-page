@@ -72,10 +72,7 @@ const ValueProps = ({ className, scrollToRef }) => {
             Build. Educate. Innovate.
           </div>
           <div className={styles.text}>
-            Blockchain at Berkeley drives innovation in the blockchain industry
-            by building an ecosystem that empowers students to make an impact
-            through practical education, consulting for enterprise companies,
-            and conducting open source research.
+          Blockchain at Berkeley drives innovation in the blockchain industry by building an ecosystem that empowers students to make an impact through practical education, consulting for enterprise companies, conducting open source research, and creating new ideas through human-centered design.
           </div>
         </div>
         {/* <div className={styles.list}>
