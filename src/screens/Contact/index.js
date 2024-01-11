@@ -26,7 +26,7 @@ const Contact = () => {
         </a>
       ),
       content:
-        "For any questions regarding our DeCal courses, EdX courses, and our education department.",
+        "For any inquiries regarding our consulting services for your company or questions regarding our consulting department.",
     },
     {
       title: "Education",
@@ -39,7 +39,7 @@ const Contact = () => {
         </a>
       ),
       content:
-        "For any inquiries regarding our consulting services for your company or questions regarding our consulting department.",
+        "For any questions regarding our DeCal courses, EdX courses, and our education department.",
     },
     {
       title: "Research",

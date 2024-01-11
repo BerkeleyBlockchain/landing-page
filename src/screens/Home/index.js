@@ -58,12 +58,12 @@ const Home = () => {
 
   const initiatives = [
     {
-      title: "Consutling",
+      title: "Consulting",
       image: "/images/content/consulting-overview.png",
       image2x: "/images/content/consulting-overview@2x.png",
       content:
         "Blockchain at Berkeley engages in both consulting and research initiatives for industry partners looking to work with skilled intellectuals focused on blockchain. We have completed various projects across many industries and continue to improve our expertise.",
-        url: "/business"
+        url: "/consulting"
       },
     {
       title: "Education",

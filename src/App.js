@@ -3,10 +3,9 @@ import "./styles/app.sass";
 import Page from "./components/Page";
 import Home from "./screens/Home";
 import About from "./screens/About";
-import Grants from "./screens/Grants";
 import React, { useEffect } from 'react';
 import useDarkMode from 'use-dark-mode';
-import Business from "./screens/Business";
+import Consulting from "./screens/Consulting";
 import Research from "./screens/Research";
 import Apply from "./screens/Apply";
 import Contact from "./screens/Contact";
@@ -54,18 +53,10 @@ function App() {
                     }
                 />
                 <Route
-                    path="grants"
+                    path="consulting"
                     element={
                         <Page>
-                            <Grants />
-                        </Page>
-                    }
-                />
-                <Route
-                    path="business"
-                    element={
-                        <Page>
-                            <Business />
+                            <Consulting />
                         </Page>
                     }
                 />

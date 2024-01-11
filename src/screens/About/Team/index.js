@@ -31,7 +31,7 @@ const include = {
     "Consultant",
   ],
   Education: ["Head of Education", "Edu"],
-  Design: ["Head of Design", "Designer"],
+  Design: ["Head of Design", "Designer", "Senior Advisor"],
   Research: ["Head of Research", "Research"],
 };
 
@@ -86,7 +86,7 @@ const people = [
   },
   {
     name: "Jay Tipirneni",
-    position: ["Consultant", "Research"],
+    position: ["Consultant"],
   },
   {
     name: "Haluk Cem Demirhan",
@@ -113,6 +113,10 @@ const people = [
     position: ["Designer"],
   },
   {
+    name: "Matthew Fogel",
+    position: ["Research"]
+  },
+  {
     name: "Riya Bhatia",
     position: ["Designer"],
   },
@@ -126,7 +130,7 @@ const people = [
   },
   {
     name: "Mohammed Alobaidi",
-    position: ["Head of Design", "Leadership"],
+    position: ["Senior Advisor"],
   },
   {
     name: "Jessica Situ",

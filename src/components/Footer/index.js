@@ -17,12 +17,8 @@ const menu = [
         url: "/education",
     },
     {
-        title: "Grants",
-        url: "/grants",
-    },
-    {
-        title: "Business",
-        url: "/business",
+        title: "Consulting",
+        url: "/consulting",
     },
     {
         title: "Design",
@@ -31,6 +27,10 @@ const menu = [
     {
         title: "Research",
         url: "/research",
+    },
+    {
+        title: "Xcelerator",
+        url: "https://xcelerator.berkeley.edu/"
     },
     {
         title: "Blog",
@@ -100,8 +100,8 @@ const Footer = () => {
                                         className={cn(styles.link, {
                                             [styles.active]: pathname === x.url,
                                         })}
-                                        target={index === 6 ? "_blank" : undefined}
-                                        rel={index === 6 ? "noopener noreferrer" : undefined}
+                                        target={index >= 5 ? "_blank" : undefined}
+                                        rel={index >= 5 ? "noopener noreferrer" : undefined}
                                         to={x.url}
                                         key={index}
                                     >

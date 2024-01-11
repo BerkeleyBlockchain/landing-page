@@ -18,7 +18,7 @@ const Education = () => {
       buttons: [
         [
           "Learn More",
-          "https://classes.berkeley.edu/content/2023-fall-compsci-198-078-grp-078",
+          "https://classes.berkeley.edu/content/2024-spring-compsci-198-078-grp-078",
         ],
       ],
       asset: "bitcoin",
@@ -30,7 +30,7 @@ const Education = () => {
       buttons: [
         [
           "Learn More",
-          "https://classes.berkeley.edu/content/2023-fall-compsci-198-077-grp-077",
+          "https://classes.berkeley.edu/content/2024-spring-compsci-198-077-grp-077",
         ],
       ],
       asset: "mining",

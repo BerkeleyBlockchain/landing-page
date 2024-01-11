@@ -3,33 +3,33 @@ import Section from "../../components/Section";
 import Carousel from "../../components/Carousel";
 import Overview from "../../components/Overview";
 
-const Business = () => {
+const Consulting = () => {
     const scrollToRef = useRef(null);
     const intro = {
-      tag: "Business",
-      title: "Work with us.",
-      content: <div>Blockchain at Berkeley engages in both consulting and research initiatives for industry partners looking to work with skilled intellectuals focused on blockchain. We have completed various projects across many industries and continue to improve our expertise.</div>,
+      tag: "Consulting",
+      title: "Pioneering Blockchain Innovation",
+      content: <div>Blockchain at Berkeley engages in consulting projects and cutting-edge research initiatives with leading industry partners. We bring together the brightest minds to tackle diverse projects across sectors, continuously advancing our blockchain expertise.</div>,
       button: ["Contact us", "/contact"]
     }
 
   const mission = [
     {
-      title: "Engineering",
+      title: "Consulting",
       url: "/class02-details",
       color: "#FECB33",
       image: "/images/content/flag-dark.svg",
       alt: "user",
       content:
-        "Our developers are students who are committed to expanding their knowledge of computer science. Beyond web and blockchain development skills, we pride ourselves in designing technically beautiful solutions to complicated problems.",
+        "Our developers are top CS students skilled in full-stack web3 development selected from a highly competitive interview process and trained in-house. Beyond web and blockchain development skills, we pride ourselves in designing technically beautiful solutions to complicated problems.",
     },
     {
-      title: "Business",
+      title: "Strategy",
       url: "/class02-details",
       color: "#FECB33",
       image: "/images/content/medal-dark.svg",
       alt: "medal",
       content:
-        "Because blockchain is an interdisciplinary field, our consultants come from a variety of backgrounds. From product launch strategy to use case evaluation, we work with the client to set a good direction and iterate until the best solution is found.",
+        "Blockchain transcends traditional boundaries, blending elements from market strategy, use case analysis, to the intricacies of tokenomics and DeFi mechanism design. Our strategy consultants collaborate closely with clients, guiding them through each step to discover and refine the optimal solution tailored to their unique needs.",
     },
     {
       title: "Design",
@@ -55,4 +55,4 @@ const Business = () => {
   );
 };
 
-export default Business;
+export default Consulting;

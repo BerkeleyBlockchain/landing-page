@@ -16,12 +16,8 @@ const navLinks = [
     url: "/education",
   },
   {
-    title: "Grants",
-    url: "/grants",
-  },
-  {
-    title: "Business",
-    url: "/business",
+    title: "Consulting",
+    url: "/consulting",
   },
   {
     title: "Design",
@@ -31,6 +27,10 @@ const navLinks = [
     title: "Research",
     url: "/research",
   },
+  {
+    title: "Xcelerator",
+    url: "https://xcelerator.berkeley.edu/"
+},
   {
     title: "Blog",
     url: "https://calblockchain.mirror.xyz",
@@ -100,8 +100,8 @@ const Headers = () => {
                   })}
                   to={x.url}
                   key={index}
-                  target={index === 6 ? "_blank" : undefined}
-                  rel={index === 6 ? "noopener noreferrer" : undefined}
+                  target={index >= 5 ? "_blank" : undefined}
+                  rel={index >= 5 ? "noopener noreferrer" : undefined}
                   onClick={() => setVisibleNav(false)}
                 >
                   {x.title}

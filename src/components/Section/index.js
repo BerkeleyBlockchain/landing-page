@@ -14,15 +14,17 @@ const Section = React.forwardRef(({ data, imageOnLeft }, ref) => {
     <div className={sectionClass} ref={ref}>
       <div className={cn("container", styles.container)}>
         <div className={styles.gallery}>
-         
-            <img
-              srcSet={`/images/content/${data.asset}@2x.png 2x`}
-              src={`/images/content/${data.asset}.png`}
-              alt="Rocket"
-            />
 
+          <img
+            srcSet={`/images/content/${data.asset}@2x.png 2x`}
+            src={`/images/content/${data.asset}.png`}
+            alt="Rocket"
+          />
         </div>
-        <div className={styles.wrap}>
+        <div className={cn(styles.wrap, {
+          [styles.imageOnLeft]: imageOnLeft,
+          [styles.imageOnRight]: !imageOnLeft,
+        })}>
           <h2 className={cn("h1", styles.title)}>{data.title}</h2>
           <div className={styles.text}>{data.desc}</div>
           {(data.buttons.length > 0) && <Link
@@ -32,7 +34,7 @@ const Section = React.forwardRef(({ data, imageOnLeft }, ref) => {
           >
             {data.buttons[0][0]}
           </Link>}
-          
+
         </div>
       </div>
     </div>
