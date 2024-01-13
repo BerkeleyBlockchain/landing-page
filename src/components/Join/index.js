@@ -28,15 +28,15 @@ const Join = () => {
           and education programs.
         </div>
         <div className={styles.flex}>
-          <Link className={cn("button-indicator", styles.button)} to={""}>
-            Application Available Soon
+          <Link className={cn("button", styles.button)} to={"https://tinyurl.com/sp24bab"} target="_blank">
+            Apply Now
           </Link>
-          {/* <Link
+          <Link
             className={cn("button-stroke", styles.button)}
             to={""}
           >
             Coffee Chat Opening Soon
-          </Link> */}
+          </Link>
         </div>
       </div>
     </div>

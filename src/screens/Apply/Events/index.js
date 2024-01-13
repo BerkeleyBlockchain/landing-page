@@ -6,67 +6,66 @@ import ScrollParallax from "../../../components/ScrollParallax";
 
 const items = [
   {
-    title: "Coffee Chat & Tabling",
-    description: "Wednesday 8/23 - Thursday 8/31",
+    title: "Coffee Chats",
+    description: "Tue 1/16 - Wed 1/24",
     color: "#23262F",
-    image: "/images/content/cup.svg",
+    image: "/images/content/cup.svg", // Assuming the image is the same
     status: "outlined",
     statusContent: "In-Person",
   },
   {
-    title: "Meet The Club",
-    description: "Friday 8/25, 5:00-7:00 PM",
+    title: "Info Session 1",
+    description: "Thu 1/18, 8:00 PM-10:00 PM",
     color: "#23262F",
-    image: "/images/content/star.svg",
+    image: "/images/content/info.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "2580 Bancroft Way",
+    statusContent: "VLSB 2040",
+  },
+  {
+    title: "Design Fair",
+    description: "Fri 1/19, 12:00 PM-4:00 PM",
+    color: "#23262F",
+    image: "/images/content/star.svg", // Assuming the image is the same
+    status: "outlined",
+    statusContent: "Jacobs 310",
   },
   {
     title: "Women’s Mixer",
-    description: "Sunday 8/27, 7:00-9:00 PM",
+    description: "Fri 1/19, 5:00 PM-7:00 PM",
     color: "#23262F",
-    image: "/images/content/star.svg",
+    image: "/images/content/star.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "Social Sciences 20",
-  },
-  {
-    title: "Info Session 1",
-    description: "Monday 8/28, 8:00-10:00 PM",
-    color: "#23262F",
-    image: "/images/content/info.svg",
-    status: "outlined",
-    statusContent: "VLSB 2040",
+    statusContent: "Haas Courtyard",
   },
   {
     title: "Technical Workshop",
-    description: "Tuesday 8/29, 8:00-10:00 PM",
+    description: "Sun 1/21, 8:00 PM-10:00 PM",
     color: "#23262F",
-    image: "/images/content/info.svg",
+    image: "/images/content/info.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "VLSB 2040",
+    statusContent: "SOCS 20",
   },
-  
   {
-    title: "Infosession 2",
-    description: "Wednesday 8/30, 8:00-10:00 PM",
+    title: "Clubs & Cookies",
+    description: "Mon 1/22, 7:00 PM-9:00 PM",
     color: "#23262F",
-    image: "/images/content/info.svg",
+    image: "/images/content/star.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "VLSB 2060",
+    statusContent: "Location TBD",
+  },
+  {
+    title: "Info Session 2",
+    description: "Tue 1/23, 8:00 PM-10:00 PM",
+    color: "#23262F",
+    image: "/images/content/info.svg", // Assuming the image is the same
+    status: "outlined",
+    statusContent: "Location TBD",
   },
   {
     title: "Application Due",
-    description: "Thursday 8/31, 12:00 PM",
+    description: "Thu 1/25, 11:59 PM",
     color: "#23262F",
-    image: "/images/content/time.svg",
-    status: "outlined",
-    statusContent: "Online",
-  },
-  {
-    title: "Office Hours",
-    description: "Sat 9/2 - Mon 9/4 (Interviewees Only)",
-    color: "#23262F",
-    image: "/images/content/info.svg",
+    image: "/images/content/time.svg", // Assuming the image is the same
     status: "outlined",
     statusContent: "Online",
   },
