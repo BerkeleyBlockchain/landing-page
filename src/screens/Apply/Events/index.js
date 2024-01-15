@@ -47,11 +47,11 @@ const items = [
   },
   {
     title: "Clubs & Cookies",
-    description: "Mon 1/22, 7:00 PM-9:00 PM",
+    description: "Mon 1/22, 8:00 PM-9:30 PM",
     color: "#23262F",
     image: "/images/content/star.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "Location TBD",
+    statusContent: "VLSB 2050",
   },
   {
     title: "Info Session 2",
