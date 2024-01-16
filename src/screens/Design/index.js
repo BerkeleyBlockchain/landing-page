@@ -34,7 +34,7 @@ const Design = () => {
         "Each semester, we embark on a journey to unravel a key question in the realm of blockchain, guiding our path from research and ideation to prototyping.",
     },
     {
-      title: "Quickly find the class you want",
+      title: "Product Design + Consulting",
       image: "/images/content/design-pic-2.png",
       image2x: "/images/content/design-pic-2@2x.png",
       content:
