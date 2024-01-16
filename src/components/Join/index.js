@@ -33,9 +33,9 @@ const Join = () => {
           </Link>
           <Link
             className={cn("button-stroke", styles.button)}
-            to={""}
+            to={"https://tinyurl.com/sp24-chats"} target="_blank"
           >
-            Coffee Chat Opening Soon
+            Coffee Chat Sign Up
           </Link>
         </div>
       </div>
