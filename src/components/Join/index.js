@@ -18,14 +18,9 @@ const Join = () => {
           />
         </div>
         <div className={cn("stage-small", styles.stage)}>Spring 2024</div>
-        <h2 className={cn("h2", styles.title)}>Membership Application</h2>
+        <h2 className={cn("h2", styles.title)}>Create & Build Tomorrow, Today</h2>
         <div className={styles.text}>
-          Blockchain at Berkeley is a student-led Blockchain group focused on
-          learning, educating, designing and overall contributing to the
-          community. We are interested in working with anyone who is dedicated
-          toward the adoption and growth of Blockchain technologies. ‍We are
-          actively recruiting for our research, design, development, business,
-          and education programs.
+        Our vision is to build tomorrow's technology, today. We educate and empower the next generation of Blockchain users and developers. Our members are encouraged to experiment with new ideas and build powerful tools that push the technology's limits. ‍We are actively recruiting for developers and designers who are dedicated toward the adoption and growth of Blockchain technologies.
         </div>
         <div className={styles.flex}>
           <Link className={cn("button", styles.button)} to={"https://tinyurl.com/sp24bab"} target="_blank">
