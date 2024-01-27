@@ -145,6 +145,10 @@ const people = [
     position: ["Designer"],
   },
   {
+    name: "Megan Ho",
+    position: ["Consultant", "Internal/External"]
+  },
+  {
     name: "Naman Kapasi",
     position: ["Edu"],
   },

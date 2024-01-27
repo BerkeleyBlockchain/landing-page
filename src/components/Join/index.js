@@ -23,15 +23,15 @@ const Join = () => {
         Our vision is to build tomorrow's technology, today. We educate and empower the next generation of Blockchain users and developers. Our members are encouraged to experiment with new ideas and build powerful tools that push the technology's limits. ‍We are actively recruiting for developers and designers who are dedicated toward the adoption and growth of Blockchain technologies.
         </div>
         <div className={styles.flex}>
-          <Link className={cn("button", styles.button)} to={"https://tinyurl.com/sp24bab"} target="_blank">
-            Apply Now
+          <Link className={cn("button-stroke", styles.button)} to={""}>
+            Application Closed
           </Link>
-          <Link
+          {/* <Link
             className={cn("button-stroke", styles.button)}
             to={"https://tinyurl.com/sp24-chats"} target="_blank"
           >
             Coffee Chat Sign Up
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
