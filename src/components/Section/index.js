@@ -4,11 +4,13 @@ import { Link } from "react-router-dom";
 import styles from "./Section.module.sass";
 import ScrollParallax from "../ScrollParallax";
 
-const Section = React.forwardRef(({ data, imageOnLeft }, ref) => {
+const Section = React.forwardRef(({ data, imageOnLeft, isButtonSpecial = false }, ref) => {
   const sectionClass = cn(styles.section, {
     [styles.imageOnLeft]: imageOnLeft,
     [styles.imageOnRight]: !imageOnLeft,
   });
+
+  const buttonClass = isButtonSpecial ? cn("button-stroke-special", styles.button) : cn("button", styles.button);
 
   return (
     <div className={sectionClass} ref={ref}>
@@ -28,7 +30,7 @@ const Section = React.forwardRef(({ data, imageOnLeft }, ref) => {
           <h2 className={cn("h1", styles.title)}>{data.title}</h2>
           <div className={styles.text}>{data.desc}</div>
           {(data.buttons.length > 0) && <Link
-            className={cn("button", styles.button)}
+            className={buttonClass}
             to={data.buttons[0][1]}
             target="_blank"
           >

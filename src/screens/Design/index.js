@@ -17,10 +17,10 @@ const Design = () => {
     title: "SimpleFi: DeFi app for crypto newbies",
     desc: "SimpleFi is a decentralized finance app for beginners and non-technical users. The app integrates gesture-based shortcuts and context-aware AI assistants to ensure a smooth onramp for DeFi users who new to the crypto space. The platform supports trading and swapping various tokens, and provides a simple wallet for managing assets.",
     buttons: [
-      //[
-        // "Learn More",
-        // "https://medium.com/blockchain-at-berkeley/community-node-initiative-press-release-43fba98a7ff3",
-      //],
+      [
+        "Case Study",
+        "https://www.behance.net/gallery/190476687/SimpleFi-DeFi-App-for-Crypto-Newbies",
+      ],
     ],
     asset: "simplefi",
   };
@@ -53,7 +53,7 @@ const Design = () => {
     <>
       <Overview className="section" data={intro} scrollToRef={scrollToRef}/>
       <Initatives className="section" items={items} title="Our Initiatives" description="We are the team that curates the brand of our organization, deliver high-fidelity prototypes for consulting projects, and spearhead UX research initiatives." ref={scrollToRef} />
-      <Section data={ux} imageOnLeft={true} />
+      <Section data={ux} imageOnLeft={true} isButtonSpecial={true} />
     </>
   );
 };
