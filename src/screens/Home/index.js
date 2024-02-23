@@ -6,6 +6,7 @@ import Section from "../../components/Section";
 import ValueProps from "../../components/Departments";
 import Stats from "./Stats";
 import Initiatives from "../Design/Initiatives";
+import MemorialPage from "./Memorial";
 
 const Home = () => {
   const scrollToRef = useRef(null);
@@ -189,6 +190,7 @@ const Home = () => {
 
   return (
     <>
+      <MemorialPage />
       <Hero scrollToRef={scrollToRef} />
       <ValueProps className="section" scrollToRef={scrollToRef} />
       <Stats items={stats} />

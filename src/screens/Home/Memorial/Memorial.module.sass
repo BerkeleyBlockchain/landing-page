@@ -1,0 +1,68 @@
+@import '../../../styles/helpers'
+
+.memorial
+  position: relative
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  min-height: 90vh
+  padding: 34px 0
+  background-color: black
+  color: white
+  font-family: Arial, sans-serif
+
+  .content
+    width: 100%
+    max-width: 500px
+    margin: 0 auto
+    padding: 0 0px
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    h1, h2, .name, p, .donation-link
+      padding-left: 30px
+      padding-right: 30px
+      +m
+        text-align: center
+
+
+    h1
+      padding-top: 10px
+      padding-bottom: 10px
+
+    h2
+      color: #E1B42F
+      font-size: 1em
+      font-family: 'Space Mono', monospace
+      font-weight: 300
+
+    .name
+      font-family: 'Space Mono', monospace
+      color: #FFD700
+      font-size: 2em
+      font-weight: 300
+      margin: 0.5em 0
+      
+    p
+      margin-top: 25px
+      margin-bottom: 1em
+      font-family: 'Poppins'
+      color: #D2D2D2
+      line-height: 1.6
+      font-size: 0.9em
+      +m
+        font-size: 0.8em
+
+    .donation-link
+      color: 'white'
+      text-decoration: none
+      +m
+        font-size: 0.8em
+
+    // Media queries for responsive adjustments
+    +m
+      padding: 64px 0
+      .content
+        padding: 0 10px
