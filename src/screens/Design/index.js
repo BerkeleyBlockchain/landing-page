@@ -3,15 +3,25 @@ import Section from "../../components/Section";
 import Carousel from "../../components/Carousel";
 import Initatives from "./Initiatives";
 import Overview from "../../components/Overview";
+import CaseCard from "./CaseCard";
 
 const Design = () => {
-    const scrollToRef = useRef(null);
-    const intro = {
-      tag: "Design",
-      title: "Human-Centered Design in the World of Blockchain.",
-      content: <div>Founded in 2018, Blockchain at Berkeley's design department stands at the intersection of artistic expression and blockchain innovation. We regard design as the vital bridge that makes advanced technology accessible to those who stand to benefit most. Fueled by our creative insight, we strive to develop and refine user experiences for the technology of tomorrow.</div>,
-      button: ["Explore", "/contact"]
-    }
+  const scrollToRef = useRef(null);
+  const intro = {
+    tag: "Design",
+    title: "Human-Centered Design in the World of Blockchain.",
+    content: (
+      <div>
+        Founded in 2018, Blockchain at Berkeley's design department stands at
+        the intersection of artistic expression and blockchain innovation. We
+        regard design as the vital bridge that makes advanced technology
+        accessible to those who stand to benefit most. Fueled by our creative
+        insight, we strive to develop and refine user experiences for the
+        technology of tomorrow.
+      </div>
+    ),
+    button: ["Explore", "/contact"],
+  };
 
   const ux = {
     title: "SimpleFi: DeFi app for crypto newbies",
@@ -51,9 +61,27 @@ const Design = () => {
 
   return (
     <>
-      <Overview className="section" data={intro} scrollToRef={scrollToRef}/>
-      <Initatives className="section" items={items} title="Our Initiatives" description="We are the team that curates the brand of our organization, deliver high-fidelity prototypes for consulting projects, and spearhead UX research initiatives." ref={scrollToRef} />
-      <Section data={ux} imageOnLeft={true} isButtonSpecial={true} />
+      <Overview className="section" data={intro} scrollToRef={scrollToRef} />
+      <Initatives
+        className="section"
+        items={items}
+        title="Our Initiatives"
+        description="We are the team that curates the brand of our organization, deliver high-fidelity prototypes for consulting projects, and spearhead UX research initiatives."
+        ref={scrollToRef}
+      />
+      <CaseCard
+        title="StablePay"
+        description="A platform that makes stablecoins easy to use with seamless fiat conversion, a staking dashboard, and a browser plugin for online purchases."
+        imagePath="/images/content/stablepay"
+        buttonLink="https://www.behance.net/gallery/204123427/Stablepay-B2B-Stablecoin-Finance-Platform"
+      />
+      <CaseCard
+        title="Social.Goods"
+        description="A crowdfunding platform connecting social projects with funders through initial grants and tokenization. It helps investors track investment, project progress & impact."
+        imagePath="/images/content/social.goods"
+        buttonLink="https://www.behance.net/gallery/204105195/SocialGoods-Blockchain-Crowdfunding-Platform"
+      />
+      <Section data={ux} imageOnLeft={true} />
     </>
   );
 };

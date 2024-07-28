@@ -15,7 +15,7 @@ const Home = () => {
     title: "Berkeley Blockchain Accelerator",
     desc: "The Xcelerator is UC Berkeley’s university-based, blockchain accelerator founded and staffed by Blockchain at Berkeley as a joint venture with Berkeley’s Haas School of Business, SCET of Berkeley Engineering. Since its inception in 2019, the Xcelerator has accelerated 85 companies that have raised a total of $450M+ in follow-on funding, making the Xcelerator one of the best in it’s class.",
     buttons: [["Learn More", "https://xcelerator.berkeley.edu"]],
-    asset: "rocket"
+    asset: "rocket",
   };
 
   const ux = {
@@ -64,15 +64,15 @@ const Home = () => {
       image2x: "/images/content/consulting-overview@2x.png",
       content:
         "Blockchain at Berkeley engages in both consulting and research initiatives for industry partners looking to work with skilled intellectuals focused on blockchain. We have completed various projects across many industries and continue to improve our expertise.",
-        url: "/consulting"
-      },
+      url: "/consulting",
+    },
     {
       title: "Education",
       image: "/images/content/education-overview.png",
       image2x: "/images/content/education-overview@2x.png",
       content:
         "We aim to create an inclusive environment and provide a space for people of any background to grow and thrive. You can find our courses and educational content on platforms like edX, YouTube, and on campus through DeCal courses offered to UC Berkeley students.",
-      url: "/education"
+      url: "/education",
     },
     {
       title: "Design",
@@ -80,7 +80,7 @@ const Home = () => {
       image2x: "/images/content/design-overview@2x.png",
       content:
         "We regard design as the vital bridge that makes advanced technology accessible to those who stand to benefit most. Fueled by our creative insight, we strive to develop and refine user experiences for the technology of tomorrow.",
-      url: "/design"
+      url: "/design",
     },
     {
       title: "Research",
@@ -88,7 +88,7 @@ const Home = () => {
       image2x: "/images/content/research-overview@2x.png",
       content:
         "Our research team is made up of highly experienced individuals who are dedicated to using their industry expertise to push the boundaries of the space. We also have a governance team that participates in improving many top protocols by voting on community made proposals, and even making our own.",
-      url: "/research"
+      url: "/research",
     },
   ];
 
@@ -119,26 +119,27 @@ const Home = () => {
     },
   ];
 
-  const data = [{
-    title: "Airbus",
-    url: "/images/content/airbus.svg",
-  },
-  {
-    title: "BDO",
-    url: "/images/content/bdo.svg",
-  },
-  {
-    title: "UNICEF",
-    url: "/images/content/unicef.svg",
-  },
-  {
-    title: "",
-    url: "/images/content/vf.svg",
-  },
-  {
-    title: "",
-    url: "/images/content/federal.svg",
-  },
+  const data = [
+    {
+      title: "Airbus",
+      url: "/images/content/airbus.svg",
+    },
+    {
+      title: "BDO",
+      url: "/images/content/bdo.svg",
+    },
+    {
+      title: "UNICEF",
+      url: "/images/content/unicef.svg",
+    },
+    {
+      title: "",
+      url: "/images/content/vf.svg",
+    },
+    {
+      title: "",
+      url: "/images/content/federal.svg",
+    },
     {
       title: "BMW",
       url: "/images/content/bmw.svg",
@@ -185,18 +186,22 @@ const Home = () => {
   const consultingHeader = {
     stage: "Consulting",
     title: "Our previous clients",
-    desc: "Blockchain at Berkeley is an award-winning blockchain consulting and development team. We believe in the power of blockchain applications and seek to expand understanding across industries, academia, governments, and beyond."
-  }
+    desc: "Blockchain at Berkeley is an award-winning blockchain consulting and development team. We believe in the power of blockchain applications and seek to expand understanding across industries, academia, governments, and beyond.",
+  };
 
   return (
     <>
-      <MemorialPage />
       <Hero scrollToRef={scrollToRef} />
       <ValueProps className="section" scrollToRef={scrollToRef} />
       <Stats items={stats} />
-      <Clients headerInfo={consultingHeader} data={data}/>
-      <Initiatives className="section" items={initiatives} title="Our Departments" description="Our various departments spearhead projects and initiatives that make meaningful contributions to the blockchain space and provide members with valuable experiences." />
-      <Section data={accelerator} imageOnLeft={true}/>
+      <Clients headerInfo={consultingHeader} data={data} />
+      <Initiatives
+        className="section"
+        items={initiatives}
+        title="Our Departments"
+        description="Our various departments spearhead projects and initiatives that make meaningful contributions to the blockchain space and provide members with valuable experiences."
+      />
+      <Section data={accelerator} imageOnLeft={true} />
       <Stats items={items} />
       <Section data={ux} imageOnLeft={true} isButtonSpecial={true} />
     </>
