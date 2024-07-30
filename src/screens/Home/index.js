@@ -7,6 +7,7 @@ import ValueProps from "../../components/Departments";
 import Stats from "./Stats";
 import Initiatives from "../Design/Initiatives";
 import MemorialPage from "./Memorial";
+import UXCard from "./UX";
 
 const Home = () => {
   const scrollToRef = useRef(null);
@@ -203,7 +204,12 @@ const Home = () => {
       />
       <Section data={accelerator} imageOnLeft={true} />
       <Stats items={items} />
-      <Section data={ux} imageOnLeft={true} isButtonSpecial={true} />
+      <UXCard
+        title="UX Research & Design"
+        description="Our design team at Blockchain at Berkeley has been on a mission to make blockchain more accessible to everyday users. Through dedicated UX research and innovative projects, we’ve tackled key areas like DeFi, Stablecoins, and Blockchain for Social Good. Our goal is to lower the barrier to entry and create user-friendly experiences for all. Discover the journey and explore our case studies to see how we’re shaping the future of blockchain design."
+        imagePath="/images/content/uxPreview"
+        buttonLink="https://medium.com/@patrickcui/designing-a-design-team-from-scratch-51d6c22fe0af"
+      />
     </>
   );
 };

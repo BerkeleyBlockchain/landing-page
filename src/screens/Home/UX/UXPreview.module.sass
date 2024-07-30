@@ -1,0 +1,82 @@
+@import '../../../styles/helpers'
+
+.card
+  display: flex
+  flex-direction: column
+  align-items: center
+  background-color: $neutrals2
+  border-radius: 24px
+  padding: 32px
+  max-width: 85%
+  margin: 0 auto
+  border: 1px solid $neutrals3
+  overflow: hidden
+  margin-bottom: 48px
+  max-height: 600px
+  +t
+    margin-top: 24px
+    max-width: 95%
+    max-height: 700px
+  +m
+    max-height: 800px
+
+.content
+  text-align: center
+  margin-bottom: 24px
+  margin-left: 24px
+  margin-right: 24px
+  display: flex
+  flex-direction: row
+  align-items: start
+  justify-content: space-between
+  text-align: center
+  +t
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    margin-left: 0
+    margin-right: 0
+
+.title
+  color: $neutrals8
+  font-size: 32px
+  font-weight: 600
+  margin-bottom: 16px
+
+.text
+  display: flex
+  flex-direction: column
+  align-items: start
+  justify-content: center
+  text-align: center
+  max-width: 70%
+  +t
+    max-width: 95%
+    align-items: center
+    justify-content: center
+
+.description
+  color: $neutrals4
+  font-size: 16px
+  line-height: 1.5
+  margin-bottom: 24px
+  text-align: left
+  +t
+    text-align: center
+
+
+.imageWrapper
+  width: 110%
+  display: flex
+  justify-content: center
+  margin-left: 10%
+  +t
+    margin-right: 30%
+    margin-top: 24px
+    width: 200%
+
+.image
+  width: 100%
+  +t
+    max-width: 100% 
+    height: auto
