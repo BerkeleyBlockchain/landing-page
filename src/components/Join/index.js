@@ -18,17 +18,26 @@ const Join = () => {
           />
         </div>
         <div className={cn("stage-small", styles.stage)}>Spring 2024</div>
-        <h2 className={cn("h2", styles.title)}>Create & Build Tomorrow, Today</h2>
+        <h2 className={cn("h2", styles.title)}>
+          Create & Build Tomorrow, Today
+        </h2>
         <div className={styles.text}>
-        Our vision is to build tomorrow's technology, today. We educate and empower the next generation of Blockchain users and developers. Our members are encouraged to experiment with new ideas and build powerful tools that push the technology's limits. ‍We are actively recruiting for developers and designers who are dedicated toward the adoption and growth of Blockchain technologies.
+          Our vision is to build tomorrow's technology, today. We educate and
+          empower the next generation of Blockchain users and developers. Our
+          members are encouraged to experiment with new ideas and build powerful
+          tools that push the technology's limits. ‍We are actively recruiting
+          for developers and designers who are dedicated toward the adoption and
+          growth of Blockchain technologies.
         </div>
         <div className={styles.flex}>
+          {/* button: solid, button-stroke: outlined */}
           <Link className={cn("button-stroke", styles.button)} to={""}>
             Application Closed
           </Link>
           {/* <Link
             className={cn("button-stroke", styles.button)}
-            to={"https://tinyurl.com/sp24-chats"} target="_blank"
+            to={"https://tinyurl.com/sp24-chats"}
+            target="_blank"
           >
             Coffee Chat Sign Up
           </Link> */}

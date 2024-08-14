@@ -6,13 +6,20 @@ import Join from "../../components/Join";
 import Events from "./Events";
 
 const Apply = () => {
-    const scrollToRef = useRef(null);
-    const intro = {
-      tag: "Apply",
-      title: "Work with us.",
-      content: <div>Blockchain at Berkeley engages in both consulting and research initiatives for industry partners looking to work with skilled intellectuals focused on blockchain. We have completed various projects across many industries and continue to improve our expertise.</div>,
-      button: ["Contact us", "https://apple.com"]
-    }
+  const scrollToRef = useRef(null);
+  const intro = {
+    tag: "Apply",
+    title: "Work with us.",
+    content: (
+      <div>
+        Blockchain at Berkeley engages in both consulting and research
+        initiatives for industry partners looking to work with skilled
+        intellectuals focused on blockchain. We have completed various projects
+        across many industries and continue to improve our expertise.
+      </div>
+    ),
+    button: ["Contact us", "https://apple.com"],
+  };
 
   const mission = [
     {

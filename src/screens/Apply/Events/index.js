@@ -112,7 +112,6 @@ const Events = () => {
             </ScrollParallax>
           ))}
         </div>
-        
       </div>
     </div>
   );
