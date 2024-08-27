@@ -23,8 +23,8 @@ const Join = () => {
         Our vision is to build tomorrow's technology, today. We educate and empower the next generation of Blockchain users and developers. Our members are encouraged to experiment with new ideas and build powerful tools that push the technology's limits. ‍We are actively recruiting for developers and designers who are dedicated toward the adoption and growth of Blockchain technologies.
         </div>
         <div className={styles.flex}>
-          <Link className={cn("button-stroke", styles.button)} to={""}>
-            Application Closed
+          <Link className={cn("button-stroke", styles.button)} to={"https://noteforms.com/forms/blockchain-at-berkeley-fall-2024-application-9vx8uc"}>
+            Applications Open
           </Link>
           {/* <Link
             className={cn("button-stroke", styles.button)}
