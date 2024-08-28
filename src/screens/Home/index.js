@@ -138,10 +138,6 @@ const Home = () => {
       url: "/images/content/vf.svg",
     },
     {
-      title: "",
-      url: "/images/content/federal.svg",
-    },
-    {
       title: "BMW",
       url: "/images/content/bmw.svg",
     },
@@ -157,31 +153,82 @@ const Home = () => {
       title: "Microsoft",
       url: "/images/content/microsoft.svg",
     },
+    // {
+    //   title: "IDEO",
+    //   url: "/images/content/ideo.svg",
+    // },
     {
-      title: "IDEO",
-      url: "/images/content/ideo.svg",
+      title: "Toyota",
+      url: "/images/content/toyota.svg",
     },
-
+    
     {
       title: "Inspur",
       url: "/images/content/inspur.svg",
     },
     {
-      title: "Iota",
-      url: "/images/content/iota.svg",
+      title: "Samsung",
+      url: "/images/content/samsung.svg",
+    },
+    {
+      title: "Osmosis",
+      url: "/images/content/osmosis.svg",
+    },
+    {
+      title: "Paypal",
+      url: "/images/content/paypal.svg",
     },
     {
       title: "Qualcomm",
       url: "/images/content/qualcomm.svg",
     },
     {
-      title: "Toyota",
-      url: "/images/content/toyota.svg",
+      title: "Compound",
+      url: "/images/content/compound.svg",
     },
     {
-      title: "Tsinghua",
-      url: "/images/content/tsinghua.svg",
+      title: "LayerZero",
+      url: "/images/content/layerzero.svg",
     },
+    {
+      title: "Ripple",
+      url: "/images/content/ripple.svg",
+    },
+    {
+      title: "Arbitrum",
+      url: "/images/content/arbitrum.svg",
+    },
+    {
+      title: "Ava Labs",
+      url: "/images/content/avalabs.svg",
+    },
+    {
+      title: "Algorand",
+      url: "/images/content/algorand.svg",
+    },
+    {
+      title: "Wordmark",
+      url: "/images/content/wordmark.svg",
+    },
+    {
+      title: "Aptos",
+      url: "/images/content/aptos.svg",
+    },
+    {
+      title: "Cardano",
+      url: "/images/content/cardano.svg",
+    },
+    {
+      title: "Addepar",
+      url: "/images/content/addepar.svg",
+    },
+
+
+    // {
+    //   title: "Tsinghua",
+    //   url: "/images/content/tsinghua.svg",
+    // },
+    
   ];
 
   const consultingHeader = {
