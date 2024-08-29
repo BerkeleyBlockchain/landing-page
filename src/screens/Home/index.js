@@ -137,13 +137,13 @@ const Home = () => {
       status: "platinum",
     },
     {
-      title: "Compound",
-      url: "/images/content/compound.svg",
+      title: "LayerZero",
+      url: "/images/content/layerzero.svg",
       status: "platinum",
     },
     {
-      title: "LayerZero",
-      url: "/images/content/layerzero.svg",
+      title: "Compound",
+      url: "/images/content/compound.svg",
       status: "platinum",
     },
     {
