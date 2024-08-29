@@ -14,7 +14,7 @@ const Home = () => {
 
   const accelerator = {
     title: "Berkeley Blockchain Accelerator",
-    desc: "The Xcelerator is UC Berkeley’s university-based, blockchain accelerator founded and staffed by Blockchain at Berkeley as a joint venture with Berkeley’s Haas School of Business, SCET of Berkeley Engineering. Since its inception in 2019, the Xcelerator has accelerated 85 companies that have raised a total of $450M+ in follow-on funding, making the Xcelerator one of the best in it’s class.",
+    desc: "The Xcelerator is UC Berkeley's university-based, blockchain accelerator founded and staffed by Blockchain at Berkeley as a joint venture with Berkeley's Haas School of Business, SCET of Berkeley Engineering. Since its inception in 2019, the Xcelerator has accelerated 85 companies that have raised a total of $450M+ in follow-on funding, making the Xcelerator one of the best in it's class.",
     buttons: [["Learn More", "https://xcelerator.berkeley.edu"]],
     asset: "rocket",
   };
@@ -122,113 +122,126 @@ const Home = () => {
 
   const data = [
     {
-      title: "Airbus",
-      url: "/images/content/airbus.svg",
-    },
-    {
-      title: "BDO",
-      url: "/images/content/bdo.svg",
-    },
-    {
-      title: "UNICEF",
-      url: "/images/content/unicef.svg",
-    },
-    {
-      title: "",
-      url: "/images/content/vf.svg",
-    },
-    {
-      title: "BMW",
-      url: "/images/content/bmw.svg",
-    },
-    {
-      title: "Exxon",
-      url: "/images/content/exxon.svg",
-    },
-    {
-      title: "Ford",
-      url: "/images/content/ford.svg",
-    },
-    {
-      title: "Microsoft",
-      url: "/images/content/microsoft.svg",
-    },
-    // {
-    //   title: "IDEO",
-    //   url: "/images/content/ideo.svg",
-    // },
-    {
-      title: "Toyota",
-      url: "/images/content/toyota.svg",
-    },
-    
-    {
-      title: "Inspur",
-      url: "/images/content/inspur.svg",
-    },
-    {
       title: "Samsung",
       url: "/images/content/samsung.svg",
+      status: "platinum",
     },
     {
       title: "Osmosis",
       url: "/images/content/osmosis.svg",
+      status: "platinum",
     },
     {
       title: "Paypal",
       url: "/images/content/paypal.svg",
-    },
-    {
-      title: "Qualcomm",
-      url: "/images/content/qualcomm.svg",
+      status: "platinum",
     },
     {
       title: "Compound",
       url: "/images/content/compound.svg",
+      status: "platinum",
     },
     {
       title: "LayerZero",
       url: "/images/content/layerzero.svg",
+      status: "platinum",
     },
     {
       title: "Ripple",
       url: "/images/content/ripple.svg",
+      status: "platinum",
     },
     {
       title: "Arbitrum",
       url: "/images/content/arbitrum.svg",
+      status: "gold",
     },
     {
       title: "Ava Labs",
       url: "/images/content/avalabs.svg",
+      status: "gold",
     },
     {
       title: "Algorand",
       url: "/images/content/algorand.svg",
+      status: "gold",
     },
     {
-      title: "Wordmark",
-      url: "/images/content/wordmark.svg",
+      title: "Wormhole",
+      url: "/images/content/wormhole.svg",
+      status: "gold",
     },
     {
       title: "Aptos",
       url: "/images/content/aptos.svg",
+      status: "gold",
+    },
+    // All other companies should be set to "supporter"
+    {
+      title: "Airbus",
+      url: "/images/content/airbus.svg",
+      status: "supporter",
+    },
+    {
+      title: "BDO",
+      url: "/images/content/bdo.svg",
+      status: "supporter",
+    },
+    {
+      title: "UNICEF",
+      url: "/images/content/unicef.svg",
+      status: "supporter",
+    },
+    {
+      title: "",
+      url: "/images/content/vf.svg",
+      status: "supporter",
+    },
+    {
+      title: "BMW",
+      url: "/images/content/bmw.svg",
+      status: "supporter",
+    },
+    {
+      title: "Exxon",
+      url: "/images/content/exxon.svg",
+      status: "supporter",
+    },
+    {
+      title: "Ford",
+      url: "/images/content/ford.svg",
+      status: "supporter",
+    },
+    {
+      title: "Microsoft",
+      url: "/images/content/microsoft.svg",
+      status: "supporter",
+    },
+    {
+      title: "Toyota",
+      url: "/images/content/toyota.svg",
+      status: "supporter",
+    },
+    {
+      title: "Inspur",
+      url: "/images/content/inspur.svg",
+      status: "supporter",
     },
     {
       title: "Cardano",
       url: "/images/content/cardano.svg",
+      status: "supporter",
     },
     {
       title: "Addepar",
       url: "/images/content/addepar.svg",
+      status: "supporter",
     },
-
-
-    // {
-    //   title: "Tsinghua",
-    //   url: "/images/content/tsinghua.svg",
-    // },
-    
+    {
+      title: "Qualcomm",
+      url: "/images/content/qualcomm.svg",
+      status: "supporter",
+    },
   ];
 
   const consultingHeader = {
@@ -253,7 +266,7 @@ const Home = () => {
       <Stats items={items} />
       <UXCard
         title="UX Research & Design"
-        description="Our design team at Blockchain at Berkeley has been on a mission to make blockchain more accessible to everyday users. Through dedicated UX research and innovative projects, we’ve tackled key areas like DeFi, Stablecoins, and Blockchain for Social Good. Our goal is to lower the barrier to entry and create user-friendly experiences for all. Discover the journey and explore our case studies to see how we’re shaping the future of blockchain design."
+        description="Our design team at Blockchain at Berkeley has been on a mission to make blockchain more accessible to everyday users. Through dedicated UX research and innovative projects, we've tackled key areas like DeFi, Stablecoins, and Blockchain for Social Good. Our goal is to lower the barrier to entry and create user-friendly experiences for all. Discover the journey and explore our case studies to see how we're shaping the future of blockchain design."
         imagePath="/images/content/uxPreview"
         buttonLink="https://medium.com/@patrickcui/designing-a-design-team-from-scratch-51d6c22fe0af"
       />
