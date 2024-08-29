@@ -215,7 +215,7 @@ const Home = () => {
     {
       title: "Microsoft",
       url: "/images/content/microsoft.svg",
-      status: "supporter",
+      status: "gold",
     },
     {
       title: "Toyota",
@@ -230,7 +230,7 @@ const Home = () => {
     {
       title: "Cardano",
       url: "/images/content/cardano.svg",
-      status: "supporter",
+      status: "gold",
     },
     {
       title: "Addepar",
@@ -240,7 +240,7 @@ const Home = () => {
     {
       title: "Qualcomm",
       url: "/images/content/qualcomm.svg",
-      status: "supporter",
+      status: "gold",
     },
   ];
 
