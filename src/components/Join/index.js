@@ -17,21 +17,21 @@ const Join = () => {
             alt="Blockchain"
           />
         </div>
-        <div className={cn("stage-small", styles.stage)}>Spring 2024</div>
+        <div className={cn("stage-small", styles.stage)}>Spring 2025</div>
         <h2 className={cn("h2", styles.title)}>Create & Build Tomorrow, Today</h2>
         <div className={styles.text}>
-        Our vision is to build tomorrow's technology, today. We educate and empower the next generation of Blockchain users and developers. Our members are encouraged to experiment with new ideas and build powerful tools that push the technology's limits. ‍We are actively recruiting for developers and designers who are dedicated toward the adoption and growth of Blockchain technologies.
+          Our vision is to build tomorrow's technology, today. We educate and empower the next generation of Blockchain users and developers. Our members are encouraged to experiment with new ideas and build powerful tools that push the technology's limits. ‍We are actively recruiting for developers and designers who are dedicated toward the adoption and growth of Blockchain technologies.
         </div>
         <div className={styles.flex}>
-          <Link className={cn("button-stroke", styles.button)} to={"https://noteforms.com/forms/blockchain-at-berkeley-fall-2024-application-9vx8uc"}>
+          <Link className={cn("button", styles.button)} to={"https://noteforms.com/forms/blockchain-at-berkeley-sp25-application-gkntge"}>
             Applications Open
           </Link>
-          {/* <Link
+          <Link
             className={cn("button-stroke", styles.button)}
-            to={"https://tinyurl.com/sp24-chats"} target="_blank"
+            to={"https://fluff-mole-50d.notion.site/Coffee-Chats-16ff36646ccb80e09965e8fb5c61a576"} target="_blank"
           >
             Coffee Chat Sign Up
-          </Link> */}
+          </Link>
         </div>
       </div>
     </div>

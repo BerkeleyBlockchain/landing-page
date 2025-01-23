@@ -39,7 +39,7 @@ const Home = () => {
     },
     {
       title: "Consulting Projects",
-      counter: "40+",
+      counter: "50+",
       images: "/images/content/coin.svg",
       alt: "electrical-plus",
     },
@@ -64,8 +64,8 @@ const Home = () => {
       image2x: "/images/content/consulting-overview@2x.png",
       content:
         "Blockchain at Berkeley engages in both consulting and research initiatives for industry partners looking to work with skilled intellectuals focused on blockchain. We have completed various projects across many industries and continue to improve our expertise.",
-        url: "/consulting"
-      },
+      url: "/consulting"
+    },
     {
       title: "Education",
       image: "/images/content/education-overview.png",
@@ -139,47 +139,47 @@ const Home = () => {
     title: "",
     url: "/images/content/federal.svg",
   },
-    {
-      title: "BMW",
-      url: "/images/content/bmw.svg",
-    },
-    {
-      title: "Exxon",
-      url: "/images/content/exxon.svg",
-    },
-    {
-      title: "Ford",
-      url: "/images/content/ford.svg",
-    },
-    {
-      title: "Microsoft",
-      url: "/images/content/microsoft.svg",
-    },
-    {
-      title: "IDEO",
-      url: "/images/content/ideo.svg",
-    },
+  {
+    title: "BMW",
+    url: "/images/content/bmw.svg",
+  },
+  {
+    title: "Exxon",
+    url: "/images/content/exxon.svg",
+  },
+  {
+    title: "Ford",
+    url: "/images/content/ford.svg",
+  },
+  {
+    title: "Microsoft",
+    url: "/images/content/microsoft.svg",
+  },
+  {
+    title: "IDEO",
+    url: "/images/content/ideo.svg",
+  },
 
-    {
-      title: "Inspur",
-      url: "/images/content/inspur.svg",
-    },
-    {
-      title: "Iota",
-      url: "/images/content/iota.svg",
-    },
-    {
-      title: "Qualcomm",
-      url: "/images/content/qualcomm.svg",
-    },
-    {
-      title: "Toyota",
-      url: "/images/content/toyota.svg",
-    },
-    {
-      title: "Tsinghua",
-      url: "/images/content/tsinghua.svg",
-    },
+  {
+    title: "Inspur",
+    url: "/images/content/inspur.svg",
+  },
+  {
+    title: "Iota",
+    url: "/images/content/iota.svg",
+  },
+  {
+    title: "Qualcomm",
+    url: "/images/content/qualcomm.svg",
+  },
+  {
+    title: "Toyota",
+    url: "/images/content/toyota.svg",
+  },
+  {
+    title: "Tsinghua",
+    url: "/images/content/tsinghua.svg",
+  },
   ];
 
   const consultingHeader = {
@@ -190,13 +190,13 @@ const Home = () => {
 
   return (
     <>
-      <MemorialPage />
+      {false && <MemorialPage />}
       <Hero scrollToRef={scrollToRef} />
       <ValueProps className="section" scrollToRef={scrollToRef} />
       <Stats items={stats} />
-      <Clients headerInfo={consultingHeader} data={data}/>
+      <Clients headerInfo={consultingHeader} data={data} />
       <Initiatives className="section" items={initiatives} title="Our Departments" description="Our various departments spearhead projects and initiatives that make meaningful contributions to the blockchain space and provide members with valuable experiences." />
-      <Section data={accelerator} imageOnLeft={true}/>
+      <Section data={accelerator} imageOnLeft={true} />
       <Stats items={items} />
       <Section data={ux} imageOnLeft={true} isButtonSpecial={true} />
     </>

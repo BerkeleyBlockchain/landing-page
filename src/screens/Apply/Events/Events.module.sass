@@ -82,10 +82,14 @@
     height: 160px
     margin-right: 32px
     border-radius: 24px
+    //added this so there is a border around the coffee chat logo
+    transition: box-shadow 0.2s
     +m
         margin: 0 auto 16px
     img
         max-width: 40px
+    &:hover //added this to be able to hover around coffee logo
+        box-shadow: 0 0 0 2px $yellow 
 
 .details
     position: relative
@@ -99,6 +103,15 @@
 .subtitle
     margin-bottom: 4px
     +body-2
+    a
+        color: #ffffff // Ensures the link is white
+        text-decoration: none // Optional: remove underline
+        transition: text-decoration 0.2s
+        &:hover
+            text-decoration: underline
+
+    a:hover
+        color: #ffffff // Keeps the link white on hover, or change if desired
 
 .description
     +caption-1

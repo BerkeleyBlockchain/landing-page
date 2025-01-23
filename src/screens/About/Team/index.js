@@ -23,26 +23,44 @@ const rank = [
   "Head of Design",
   "Head of Education",
   "Head of Research",
+  "Head of Xcelerator"
 ]
 const include = {
   Leadership: ["Leadership"],
   Consulting: [
     "Head of Consulting",
     "Consultant",
+    "Senior Advisor"
   ],
   Education: ["Head of Education", "Edu"],
-  Design: ["Head of Design", "Designer", "Senior Advisor"],
+  Design: ["Head of Design", "Designer", "Head of Internal", "Head of External"],
   Research: ["Head of Research", "Research"],
 };
 
 const people = [
   {
-    name: "Gurnoor Narula",
+    name: "Riddhi Patel",
     position: ["President", "Leadership"],
   },
   {
-    name: "Daniel Gushchyan",
+    name: "Megan Ho",
     position: ["President", "Leadership"],
+  },
+  {
+    name: "Jameson Crate",
+    position: ["Consultant"],
+  },
+  {
+    name: "Jeff Chen",
+    position: ["Consultant"],
+  },
+  {
+    name: "Marc Karimi",
+    position: ["Consultant"],
+  },
+  {
+    name: "Nicholas Qasawadish",
+    position: ["Consultant"],
   },
   {
     name: "Zachary Brandt",
@@ -57,31 +75,23 @@ const people = [
     position: ["Consultant"],
   },
   {
-    name: "Trevor Trinh",
-    position: ["Consultant"],
-  },
-  {
-    name: "Tommy Hang",
+    name: "Sanjay Amirthraj",
     position: ["Head of Consulting", "Leadership"],
   },
   {
-    name: "Teo Honda-Scully",
-    position: ["Consultant"],
-  },
-  {
-    name: "Tanay Appannagari",
-    position: ["Consultant"],
-  },
-  {
-    name: "Rohan Patra",
-    position: ["Consultant"],
-  },
-  {
     name: "Richa Ray",
+    position: ["Senior Advisor", "Consulting"],
+  },
+  {
+    name: "Sara Magaziotis-Ginori",
     position: ["Consultant"],
   },
   {
-    name: "Ravi Riley",
+    name: "Shrithan Sandadi",
+    position: ["Consultant"],
+  },
+  {
+    name: "Ezra Tramble",
     position: ["Head of Consulting", "Leadership"],
   },
   {
@@ -97,12 +107,16 @@ const people = [
     position: ["Consultant"],
   },
   {
-    name: "Ezra Tramble",
-    position: ["Consultant"],
+    name: "Brendan Wong",
+    position: ["Senior Advisor"],
   },
   {
-    name: "Brendan Wong",
-    position: ["Consultant"],
+    name: "Ravi Riley",
+    position: ["Senior Advisor", "Consulting"],
+  },
+  {
+    name: "Rohan Patra",
+    position: ["Senior Advisor", "Consulting"],
   },
   {
     name: "Adrian Kwan",
@@ -113,113 +127,129 @@ const people = [
     position: ["Designer"],
   },
   {
-    name: "Matthew Fogel",
-    position: ["Research"]
-  },
-  {
     name: "Riya Bhatia",
     position: ["Designer"],
   },
   {
-    name: "Rishi Thakar",
+    name: "Sarah Mou",
     position: ["Designer"],
   },
   {
-    name: "Patrick Cui",
-    position: ["Head of Design", "Leadership"],
-  },
-  {
-    name: "Mohammed Alobaidi",
-    position: ["Senior Advisor"],
-  },
-  {
-    name: "Jessica Situ",
-    position: ["Designer"],
-  },
-  {
-    name: "Brian Phan",
+    name: "Joanna Ye",
     position: ["Designer"],
   },
   {
     name: "Arushi Arora",
-    position: ["Designer"],
+    position: ["Head of Design", "Leadership"],
   },
   {
-    name: "Megan Ho",
-    position: ["Consultant", "Internal/External"]
-  },
-  {
-    name: "Naman Kapasi",
-    position: ["Edu"],
-  },
-  {
-    name: "Mehaa Amirthalingam",
-    position: ["Edu"],
+    name: "Trevor Trinh",
+    position: ["Consultant"],
   },
   {
     name: "Krishna Mandal",
     position: ["Edu"],
   },
   {
-    name: "Jaylem Brar",
-    position: ["Edu"],
-  },
-  {
-    name: "Fischer Zhang",
-    position: ["Edu"],
-  },
-  {
-    name: "Brent Friedman",
-    position: ["Head of Education", "Leadership"],
-  },
-  {
     name: "Alyssa Chen",
-    position: ["Edu"],
+    position: ["Head of Education", "Leadership"],
   },
   {
     name: "Aditya Goel",
     position: ["Edu"],
   },
   {
-    name: "Aayushi Jain",
-    position: ["Edu"],
+    name: "Arshia Narula",
+    position: ["Head of Internal", "Leadership", "Design"],
   },
   {
-    name: "Tiffany Liu",
-    position: ["Head of Internal", "Leadership"],
-  },
-  {
-    name: "Riddhi Patel",
-    position: ["Head of External", "Leadership"],
-  },
-  {
-    name: "Keshav Singhal",
-    position: ["Head of Xcelerator"],
-  },
-  {
-    name: "Belle Tangkuptanon",
-    position: ["Head of Xcelerator"],
-  },
-  {
-    name: "Aryan Bhadouria",
-    position: ["Internal/External"],
+    name: "Oleg Viatkin",
+    position: ["Head of External", "Leadership", "Design"],
   },
   {
     name: "Akshat Sharma",
+    position: ["Head of Xcelerator", "Leadership"],
+  },
+  {
+    name: "Belle Tangkuptanon",
     position: ["Xcelerator"],
   },
   {
-    name: "Niall Mandal",
+    name: "Aryan Bhadouria",
+    position: ["External"],
+  },
+  {
+    name: "Tanay Appannagari",
     position: ["Head of Research", "Leadership"],
   },
   {
     name: "Dhruv Gautam",
-    position: ["Research"],
+    position: ["Internal"],
   },
   {
     name: "Derrick Cui",
     position: ["Research"],
   },
+  {
+    name: "Akshaan Ahuja",
+    position: ["Research"],
+  },
+  {
+    name: "Kevin He",
+    position: ["Research"],
+  },
+  // {
+  //   name: "Aman Shah",
+  //   position: ["Consultant"],
+  // },
+  // {
+  //   name: "Aryan Parekh",
+  //   position: ["Consultant"],
+  // },
+  // {
+  //   name: "Elson Liu",
+  //   position: ["Edu"],
+  // },
+  // {
+  //   name: "Ethan Gu",
+  //   position: ["Consultant"],
+  // },
+  // {
+  //   name: "Ethan Lam",
+  //   position: ["Research"],
+  // },
+  // {
+  //   name: "Fujia Wang",
+  //   position: ["Consultant"],
+  // },
+  // {
+  //   name: "Isaac Oh",
+  //   position: ["Research"],
+  // },
+  // {
+  //   name: "Kelly Zeng",
+  //   position: ["Edu"],
+  // },
+  // {
+  //   name: "Mason Arditi",
+  //   position: ["Consultant"],
+  // },
+  // {
+  //   name: "Oliviq Li",
+  //   position: ["Consultant"],
+  // },
+  // {
+  //   name: "Parisa Haq",
+  //   position: ["Designer"],
+  // },
+  // {
+  //   name: "Romain Magne",
+  //   position: ["Consultant"],
+  // },
+  // {
+  //   name: "Souradeep Das",
+  //   position: ["Research"],
+  // },
 ];
 
 const SlickArrow = ({ currentSlide, slideCount, children, ...props }) => (
@@ -321,31 +351,49 @@ const Team = () => {
                   direction === "All" || shouldDisplay(direction, x.position)
               )
               .sort((a, b) => {
-                var aScore = 0;
-                var bScore = 0;
-                if (rank.indexOf(position(a.position)) === -1) {
-                  aScore = 100;
-                } else {
-                  aScore = rank.indexOf(position(a.position))
+                // var aScore = 0;
+                // var bScore = 0;
+                // if (rank.indexOf(position(a.position)) === -1) {
+                //   aScore = 100;
+                // } else {
+                //   aScore = rank.indexOf(position(a.position))
+                // }
+                // if (rank.indexOf(position(b.position)) === -1) {
+                //   bScore = 100;
+                // } else {
+                //   bScore = rank.indexOf(position(b.position))
+                // }
+                // if (aScore === bScore) {
+                //   return a.name.localeCompare(b.name);
+                // } else {
+                //   return aScore - bScore;
+                // }
+                // Special handling for Design category
+                if (direction === "Design") {
+                  const aIsHeadDesign = a.position.includes("Head of Design");
+                  const bIsHeadDesign = b.position.includes("Head of Design");
+                  if (aIsHeadDesign && !bIsHeadDesign) return -1;
+                  if (!aIsHeadDesign && bIsHeadDesign) return 1;
                 }
-                if (rank.indexOf(position(b.position)) === -1) {
-                  bScore = 100;
-                } else {
-                  bScore = rank.indexOf(position(b.position))
-                }
+
+                // Regular ranking logic
+                var aScore = rank.indexOf(position(a.position)) === -1 ? 100 : rank.indexOf(position(a.position));
+                var bScore = rank.indexOf(position(b.position)) === -1 ? 100 : rank.indexOf(position(b.position));
+
                 if (aScore === bScore) {
                   return a.name.localeCompare(b.name);
                 } else {
                   return aScore - bScore;
                 }
+
               })
-              
+
               .map((x, index) => (
                 <ScrollParallax className={styles.slide} key={index}>
-                  <Item className={styles.item} item={x} category={direction} imgSrc={`images/avatars/${x.name.replace(" ", "")}.jpg`}/>
+                  <Item className={styles.item} item={x} category={direction} imgSrc={`images/avatars/${x.name.replace(/\s+/g, "")}.jpg`} />
                 </ScrollParallax>
               ))
-              }
+            }
           </Slider>
         </div>
       </div>

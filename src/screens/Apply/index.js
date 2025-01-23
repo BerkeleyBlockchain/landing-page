@@ -47,7 +47,7 @@ const Apply = () => {
   return (
     <>
       <Join />
-      {/* <Events /> */}
+      {<Events />}
     </>
   );
 };
