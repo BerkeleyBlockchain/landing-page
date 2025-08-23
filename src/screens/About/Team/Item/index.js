@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import cn from "classnames";
 import styles from "./Item.module.sass";
 
-const Item = ({ item, className, category, imgSrc}) => {
+const Item = ({ item, className, category, imgSrc }) => {
   const [visibleModal, setVisibleModal] = useState(false);
 
   const include = {

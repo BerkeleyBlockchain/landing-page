@@ -390,7 +390,7 @@ const Team = () => {
 
               .map((x, index) => (
                 <ScrollParallax className={styles.slide} key={index}>
-                  <Item className={styles.item} item={x} category={direction} imgSrc={`images/avatars/${x.name.replace(/\s+/g, "")}.jpg`} />
+                  <Item className={styles.item} item={x} category={direction} imgSrc={`images/avatars/${x.name.replace(/\s+/g, "")}.jpg?v=${process.env.REACT_APP_VERSION || '1.0'}`} />
                 </ScrollParallax>
               ))
             }
