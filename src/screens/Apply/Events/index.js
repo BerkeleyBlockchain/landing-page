@@ -7,69 +7,93 @@ import ScrollParallax from "../../../components/ScrollParallax";
 const items = [
   {
     title: "Coffee Chats",
-    description: "Tue 1/21 - Thu 1/30",
+    description: "Thu 8/28 - Thu 9/4",
     color: "#23262F",
     image: "/images/content/cup.svg", // Assuming the image is the same
     status: "outlined",
     statusContent: "In-Person",
-    link: "https://fluff-mole-50d.notion.site/Coffee-Chats-16ff36646ccb80e09965e8fb5c61a576",
-  },
-  {
-    title: "Member Mixer",
-    description: "Fri 1/24, 7:00 PM-9:00 PM",
-    color: "#23262F",
-    image: "/images/content/user-yellow.svg", // Assuming the image is the same
-    status: "outlined",
-    statusContent: "The Standard",
+    link: "https://fluff-mole-50d.notion.site/24df36646ccb81189785cafb15d69942?v=24df36646ccb80ebbdcc000c58d264e8",
   },
   {
     title: "Clubs & Cookies",
-    description: "TBA",
+    description: "Fri 8/29, 8:00 PM-10:00 PM",
     color: "#23262F",
-    image: "/images/content/star.svg", // Assuming the image is the same
+    image: "/images/content/user-yellow.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "TBA",
+    statusContent: "Dwinelle 155",
   },
+  // {
+  //   title: "Clubs & Cookies",
+  //   description: "TBA",
+  //   color: "#23262F",
+  //   image: "/images/content/star.svg", // Assuming the image is the same
+  //   status: "outlined",
+  //   statusContent: "TBA",
+  // },
   {
     title: "Women’s Mixer",
-    description: "Mon 1/27, 5:00 PM-7:00 PM",
+    description: "Mon 9/1, 5:00 PM-7:00 PM",
     color: "#23262F",
     image: "/images/content/globe.svg", // Assuming the image is the same
     status: "outlined",
     statusContent: "The Standard",
   },
   {
-    title: "Design Fair",
-    description: "Fri 1/24, 6:00 PM-8:00 PM",
-    color: "#23262F",
-    image: "/images/content/mouse-yello.svg", // Assuming the image is the same
-    status: "outlined",
-    statusContent: "Jacobs 310",
-  },
-  {
-    title: "Info Session",
-    description: "Tue 1/28, 8:00 PM-10:00 PM",
+    title: "Technical Workshop",
+    description: "Mon 9/1, 7:00 PM-8:30 PM",
     color: "#23262F",
     image: "/images/content/info.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "Haas N100",
+    statusContent: "TBA",
+  },
+  // {
+  //   title: "Design Fair",
+  //   description: "Fri 1/24, 6:00 PM-8:00 PM",
+  //   color: "#23262F",
+  //   image: "/images/content/mouse-yello.svg", // Assuming the image is the same
+  //   status: "outlined",
+  //   statusContent: "Jacobs 310",
+  // },
+  {
+    title: "Member Mixer",
+    description: "Tue 9/2, 7:00 PM-9:00 PM",
+    color: "#23262F",
+    image: "/images/content/info.svg", // Assuming the image is the same
+    status: "outlined",
+    statusContent: "TBA",
+  },
+  {
+    title: "Info Session",
+    description: "Wed 9/3, 8:00 PM-10:00 PM",
+    color: "#23262F",
+    image: "/images/content/info.svg", // Assuming the image is the same
+    status: "outlined",
+    statusContent: "TBA",
+  },
+  {
+    title: "Cross-Club DEI Mixer",
+    description: "Wed 9/3, 5:00 PM-7:00 PM",
+    color: "#23262F",
+    image: "/images/content/info.svg", // Assuming the image is the same
+    status: "outlined",
+    statusContent: "TBA",
   },
   {
     title: "Application Due",
-    description: "Thu 1/30, 11:59 AM (Noon)",
+    description: "Thu 9/4, 11:59 PM",
     color: "#23262F",
     image: "/images/content/time.svg", // Assuming the image is the same
     status: "outlined",
     statusContent: "Online",
   },
-  {
-    title: "Resume Acceptances Sent",
-    description: "Fri 1/31",
-    color: "#23262F",
-    image: "/images/content/time.svg", // Assuming the image is the same
-    status: "outlined",
-    statusContent: "Online",
-  },
+  // {
+  //   title: "Resume Acceptances Sent",
+  //   description: "Fri 1/31",
+  //   color: "#23262F",
+  //   image: "/images/content/time.svg", // Assuming the image is the same
+  //   status: "outlined",
+  //   statusContent: "Online",
+  // },
 ];
 
 const Events = () => {

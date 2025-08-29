@@ -39,11 +39,11 @@ const include = {
 
 const people = [
   {
-    name: "Riddhi Patel",
+    name: "Ezra Tramble",
     position: ["President", "Leadership"],
   },
   {
-    name: "Megan Ho",
+    name: "Sanjay Amirthraj",
     position: ["President", "Leadership"],
   },
   {
@@ -59,10 +59,6 @@ const people = [
     position: ["Consultant"],
   },
   {
-    name: "Nicholas Qasawadish",
-    position: ["Consultant"],
-  },
-  {
     name: "Zachary Brandt",
     position: ["Consultant"],
   },
@@ -71,16 +67,36 @@ const people = [
     position: ["Consultant"],
   },
   {
-    name: "Vardhan Shorewala",
+    name: "He Song",
+    position: ["Education"],
+  },
+  {
+    name: "Satwik Panigrahi",
+    position: ["Education"],
+  },
+  {
+    name: "Kushagra Srivastava",
     position: ["Consultant"],
   },
   {
-    name: "Sanjay Amirthraj",
+    name: "Karaan Shetty",
+    position: ["Education"],
+  },
+  {
+    name: "Hari Srikanth",
+    position: ["Consultant"],
+  },
+  {
+    name: "Pratyay Pandey",
+    position: ["Consultant"],
+  },
+  {
+    name: "Aryan Parekh",
     position: ["Head of Consulting", "Leadership"],
   },
   {
-    name: "Richa Ray",
-    position: ["Senior Advisor", "Consulting"],
+    name: "Tvisha Ranjan",
+    position: ["Designer"],
   },
   {
     name: "Sara Magaziotis-Ginori",
@@ -91,72 +107,52 @@ const people = [
     position: ["Consultant"],
   },
   {
-    name: "Ezra Tramble",
-    position: ["Head of Consulting", "Leadership"],
+    name: "Shaan Fulton",
+    position: ["Consultant"],
   },
   {
-    name: "Jay Tipirneni",
+    name: "Roger Mas",
     position: ["Consultant"],
+  },
+  {
+    name: "Shivam Kumar",
+    position: ["Consultant"],
+  },
+  {
+    name: "Olivia Li",
+    position: ["Consultant"],
+  },
+  {
+    name: "Aman Shah",
+    position: ["Head of Consulting", "Leadership"],
   },
   {
     name: "Haluk Cem Demirhan",
     position: ["Consultant"],
   },
   {
-    name: "Gargi Deshpande",
-    position: ["Consultant"],
-  },
-  {
-    name: "Brendan Wong",
-    position: ["Senior Advisor"],
-  },
-  {
-    name: "Ravi Riley",
-    position: ["Senior Advisor", "Consulting"],
-  },
-  {
     name: "Rohan Patra",
     position: ["Senior Advisor", "Consulting"],
   },
   {
-    name: "Adrian Kwan",
-    position: ["Consultant"],
-  },
-  {
-    name: "Sophia Matthews",
-    position: ["Designer"],
-  },
-  {
-    name: "Riya Bhatia",
-    position: ["Designer"],
-  },
-  {
-    name: "Sarah Mou",
-    position: ["Designer"],
+    name: "Arushi Arora",
+    position: ["Senior Advisor", "Designer"],
   },
   {
     name: "Joanna Ye",
     position: ["Designer"],
   },
   {
-    name: "Arushi Arora",
+    name: "Akshaat Parikh",
+    position: ["Designer"],
+  },
+  {
+    name: "Sarah Mou",
     position: ["Head of Design", "Leadership"],
   },
   {
-    name: "Trevor Trinh",
-    position: ["Consultant"],
-  },
-  {
-    name: "Krishna Mandal",
-    position: ["Edu"],
-  },
-  {
-    name: "Alyssa Chen",
+    name: "Elson Liu",
     position: ["Head of Education", "Leadership"],
-  },
-  {
-    name: "Aditya Goel",
-    position: ["Edu"],
   },
   {
     name: "Arshia Narula",
@@ -171,85 +167,41 @@ const people = [
     position: ["Head of Xcelerator", "Leadership"],
   },
   {
-    name: "Belle Tangkuptanon",
-    position: ["Xcelerator"],
-  },
-  {
-    name: "Aryan Bhadouria",
-    position: ["External"],
-  },
-  {
-    name: "Tanay Appannagari",
+    name: "Isaac Oh",
     position: ["Head of Research", "Leadership"],
   },
   {
-    name: "Dhruv Gautam",
-    position: ["Internal"],
+    name: "Ethan Gu",
+    position: ["Consultant"],
   },
   {
-    name: "Derrick Cui",
-    position: ["Research"],
+    name: "Fujia Wang",
+    position: ["Consultant"],
   },
   {
-    name: "Akshaan Ahuja",
-    position: ["Research"],
+    name: "Kelly Zeng",
+    position: ["Edu"],
   },
   {
-    name: "Kevin He",
+    name: "Mason Arditi",
+    position: ["Consultant"],
+  },
+  {
+    name: "Oliviq Li",
+    position: ["Consultant"],
+  },
+  {
+    name: "Parisa Haq",
+    position: ["Designer"],
+  },
+  {
+    name: "Romain Magne",
+    position: ["Consultant"],
+  },
+  {
+    name: "Souradeep Das",
     position: ["Research"],
   },
-  // {
-  //   name: "Aman Shah",
-  //   position: ["Consultant"],
-  // },
-  // {
-  //   name: "Aryan Parekh",
-  //   position: ["Consultant"],
-  // },
-  // {
-  //   name: "Elson Liu",
-  //   position: ["Edu"],
-  // },
-  // {
-  //   name: "Ethan Gu",
-  //   position: ["Consultant"],
-  // },
-  // {
-  //   name: "Ethan Lam",
-  //   position: ["Research"],
-  // },
-  // {
-  //   name: "Fujia Wang",
-  //   position: ["Consultant"],
-  // },
-  // {
-  //   name: "Isaac Oh",
-  //   position: ["Research"],
-  // },
-  // {
-  //   name: "Kelly Zeng",
-  //   position: ["Edu"],
-  // },
-  // {
-  //   name: "Mason Arditi",
-  //   position: ["Consultant"],
-  // },
-  // {
-  //   name: "Oliviq Li",
-  //   position: ["Consultant"],
-  // },
-  // {
-  //   name: "Parisa Haq",
-  //   position: ["Designer"],
-  // },
-  // {
-  //   name: "Romain Magne",
-  //   position: ["Consultant"],
-  // },
-  // {
-  //   name: "Souradeep Das",
-  //   position: ["Research"],
-  // },
 ];
 
 const SlickArrow = ({ currentSlide, slideCount, children, ...props }) => (
