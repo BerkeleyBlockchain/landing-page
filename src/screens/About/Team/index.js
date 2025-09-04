@@ -59,20 +59,28 @@ const people = [
     position: ["Consultant"],
   },
   {
-    name: "Zachary Brandt",
-    position: ["Consultant"],
-  },
-  {
     name: "Varun Vaidya",
     position: ["Consultant"],
   },
   {
     name: "He Song",
-    position: ["Education"],
+    position: ["Edu"],
+  },
+  {
+    name: "Anushka Ghorpade",
+    position: ["Edu"],
+  },
+  {
+    name: "Alexis Yip",
+    position: ["Edu"],
+  },
+  {
+    name: "Mehaa Amirthalingam",
+    position: ["Edu"],
   },
   {
     name: "Satwik Panigrahi",
-    position: ["Education"],
+    position: ["Edu"],
   },
   {
     name: "Kushagra Srivastava",
@@ -80,14 +88,10 @@ const people = [
   },
   {
     name: "Karaan Shetty",
-    position: ["Education"],
+    position: ["Edu"],
   },
   {
     name: "Hari Srikanth",
-    position: ["Consultant"],
-  },
-  {
-    name: "Pratyay Pandey",
     position: ["Consultant"],
   },
   {
@@ -115,11 +119,19 @@ const people = [
     position: ["Consultant"],
   },
   {
-    name: "Shivam Kumar",
+    name: "Olivia Li",
     position: ["Consultant"],
   },
   {
-    name: "Olivia Li",
+    name: "Neel Kondapalli",
+    position: ["Consultant"],
+  },
+  {
+    name: "Pratyay Pandey",
+    position: ["Consultant"],
+  },
+  {
+    name: "Shivam Kumar",
     position: ["Consultant"],
   },
   {
@@ -143,7 +155,7 @@ const people = [
     position: ["Designer"],
   },
   {
-    name: "Akshaat Parikh",
+    name: "Akshat Parikh",
     position: ["Designer"],
   },
   {
@@ -172,7 +184,11 @@ const people = [
   },
   {
     name: "Ethan Gu",
-    position: ["Consultant"],
+    position: ["Research"],
+  },
+  {
+    name: "Kevin He",
+    position: ["Research"],
   },
   {
     name: "Fujia Wang",
@@ -183,11 +199,11 @@ const people = [
     position: ["Edu"],
   },
   {
-    name: "Mason Arditi",
-    position: ["Consultant"],
+    name: "Subham Mitra",
+    position: ["Edu"],
   },
   {
-    name: "Oliviq Li",
+    name: "Mason Arditi",
     position: ["Consultant"],
   },
   {
@@ -195,11 +211,15 @@ const people = [
     position: ["Designer"],
   },
   {
-    name: "Romain Magne",
-    position: ["Consultant"],
+    name: "Souradeep Das",
+    position: ["Research"],
   },
   {
-    name: "Souradeep Das",
+    name: "Tanay Appannagari",
+    position: ["Research"],
+  },
+  {
+    name: "Derrick Cui",
     position: ["Research"],
   },
 ];

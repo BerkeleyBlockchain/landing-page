@@ -44,7 +44,7 @@ const items = [
     color: "#23262F",
     image: "/images/content/info.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "TBA",
+    statusContent: "The Standard",
   },
   // {
   //   title: "Design Fair",
@@ -60,7 +60,7 @@ const items = [
     color: "#23262F",
     image: "/images/content/info.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "TBA",
+    statusContent: "The Standard Courtyard (2nd Floor)",
   },
   {
     title: "Info Session",
@@ -68,7 +68,7 @@ const items = [
     color: "#23262F",
     image: "/images/content/info.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "TBA",
+    statusContent: "YWCA",
   },
   {
     title: "Cross-Club DEI Mixer",
@@ -76,7 +76,7 @@ const items = [
     color: "#23262F",
     image: "/images/content/info.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "TBA",
+    statusContent: "Soda Hall 405",
   },
   {
     title: "Application Due",
@@ -85,6 +85,7 @@ const items = [
     image: "/images/content/time.svg", // Assuming the image is the same
     status: "outlined",
     statusContent: "Online",
+    link: "https://noteforms.com/forms/blockchain-at-berkeley-fa25-application-ljqlfw",
   },
   // {
   //   title: "Resume Acceptances Sent",
@@ -104,12 +105,12 @@ const Events = () => {
         <div className={styles.list}>
           {items.map((x, index) => (
             <ScrollParallax className={styles.item} key={index}>
-              {x.title === "Coffee Chats" ? ( //new
+              {x.link ? (
                 <a
-                  href={x.link} //new
-                  target="_blank" //new
-                  rel="noopener noreferrer" //new
-                  className={styles.link} // Apply any necessary styles here //new
+                  href={x.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.link}
                 >
                   <div
                     className={styles.preview}
@@ -118,7 +119,7 @@ const Events = () => {
                     <img src={x.image} alt="Logo" />
                   </div>
                 </a>
-              ) : ( //new
+              ) : (
                 <div
                   className={styles.preview}
                   style={{ backgroundColor: x.color }}
@@ -139,12 +140,12 @@ const Events = () => {
                 )}
 
                 <div className={styles.subtitle}>
-                  {x.title === "Coffee Chats" ? ( //new
+                  {x.link ? (
                     <a
-                      href={x.link} //new
-                      target="_blank" //new
-                      rel="noopener noreferrer" //new
-                      className={styles.subtitle} // Keeps the subtitle class to inherit styling //new
+                      href={x.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.subtitle}
                     >
                       {x.title}
                     </a>
