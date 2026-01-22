@@ -7,20 +7,44 @@ import ScrollParallax from "../../../components/ScrollParallax";
 const items = [
   {
     title: "Coffee Chats",
-    description: "Thu 8/28 - Thu 9/4",
+    description: "Tue 1/20 - Thu 1/29",
     color: "#23262F",
     image: "/images/content/cup.svg", // Assuming the image is the same
     status: "outlined",
     statusContent: "In-Person",
-    link: "https://fluff-mole-50d.notion.site/24df36646ccb81189785cafb15d69942?v=24df36646ccb80ebbdcc000c58d264e8",
+    link: "https://blockchain-at-berkeley.notion.site/SP26-Coffee-Chat-2e8bd5913d0080ea9bd8e26a1d5228c5?pvs=143",
   },
   {
-    title: "Clubs & Cookies",
-    description: "Fri 8/29, 8:00 PM-10:00 PM",
+    title: "Member Mixer",
+    description: "Thurs 1/22, 5:00 PM-7:00 PM",
+    color: "#23262F",
+    image: "/images/content/star.svg", // Assuming the image is the same
+    status: "outlined",
+    statusContent: "The Standard Courtyard (2nd Floor)",
+  },
+  {
+    title: "Women’s Mixer",
+    description: "Sat 1/24, 4:00 PM-6:00 PM",
+    color: "#23262F",
+    image: "/images/content/globe.svg", // Assuming the image is the same
+    status: "outlined",
+    statusContent: "The Standard Lounge",
+  },
+  {
+    title: "Cross-Club DEI Mixer",
+    description: "Mon 1/27, 5:00 PM-7:00 PM",
     color: "#23262F",
     image: "/images/content/user-yellow.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "Dwinelle 155",
+    statusContent: "The Standard Courtyard (2nd Floor)",
+  },
+  {
+    title: "Clubs & Cookies",
+    description: "Mon 1/26, 8:00 PM-10:00 PM",
+    color: "#23262F",
+    image: "/images/content/user-yellow.svg", // Assuming the image is the same
+    status: "outlined",
+    statusContent: "TBA",
   },
   // {
   //   title: "Clubs & Cookies",
@@ -30,21 +54,29 @@ const items = [
   //   status: "outlined",
   //   statusContent: "TBA",
   // },
+  // {
+  //   title: "Women’s Mixer",
+  //   description: "Sat 1/24, 4:00 PM-6:00 PM",
+  //   color: "#23262F",
+  //   image: "/images/content/globe.svg", // Assuming the image is the same
+  //   status: "outlined",
+  //   statusContent: "The Standard",
+  // },
   {
-    title: "Women’s Mixer",
-    description: "Mon 9/1, 5:00 PM-7:00 PM",
-    color: "#23262F",
-    image: "/images/content/globe.svg", // Assuming the image is the same
-    status: "outlined",
-    statusContent: "The Standard",
-  },
-  {
-    title: "Technical Workshop",
-    description: "Mon 9/1, 7:00 PM-8:30 PM",
+    title: "Info Session",
+    description: "Tue 1/27, 8:00 PM-10:00 PM",
     color: "#23262F",
     image: "/images/content/info.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "The Standard",
+    statusContent: "Dwinelle 247",
+  },
+  {
+    title: "Technical Workshop",
+    description: "Wed 1/28, 6:00 PM-8:00 PM",
+    color: "#23262F",
+    image: "/images/content/mouse-yello.svg", // Assuming the image is the same
+    status: "outlined",
+    statusContent: "TBA",
   },
   // {
   //   title: "Design Fair",
@@ -54,38 +86,22 @@ const items = [
   //   status: "outlined",
   //   statusContent: "Jacobs 310",
   // },
-  {
-    title: "Member Mixer",
-    description: "Tue 9/2, 7:00 PM-9:00 PM",
-    color: "#23262F",
-    image: "/images/content/info.svg", // Assuming the image is the same
-    status: "outlined",
-    statusContent: "The Standard Courtyard (2nd Floor)",
-  },
-  {
-    title: "Info Session",
-    description: "Wed 9/3, 8:00 PM-10:00 PM",
-    color: "#23262F",
-    image: "/images/content/info.svg", // Assuming the image is the same
-    status: "outlined",
-    statusContent: "YWCA",
-  },
-  {
-    title: "Cross-Club DEI Mixer",
-    description: "Wed 9/3, 5:00 PM-7:00 PM",
-    color: "#23262F",
-    image: "/images/content/info.svg", // Assuming the image is the same
-    status: "outlined",
-    statusContent: "Soda Hall 405",
-  },
+  // {
+  //   title: "Member Mixer",
+  //   description: "Tue 9/2, 7:00 PM-9:00 PM",
+  //   color: "#23262F",
+  //   image: "/images/content/info.svg", // Assuming the image is the same
+  //   status: "outlined",
+  //   statusContent: "The Standard Courtyard (2nd Floor)",
+  // },
   {
     title: "Application Due",
-    description: "Thu 9/4, 11:59 PM",
+    description: "Thu 1/29, 12:00 PM PST",
     color: "#23262F",
     image: "/images/content/time.svg", // Assuming the image is the same
     status: "outlined",
     statusContent: "Online",
-    link: "https://noteforms.com/forms/blockchain-at-berkeley-fa25-application-ljqlfw",
+    link: "https://noteforms.com/forms/blockchain-at-berkeley-sp26-application-tcb52t",
   },
   // {
   //   title: "Resume Acceptances Sent",
