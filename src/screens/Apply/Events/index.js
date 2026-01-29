@@ -72,11 +72,11 @@ const items = [
   },
   {
     title: "Technical Workshop",
-    description: "Wed 1/28, 6:00 PM-8:00 PM",
+    description: "Wed 1/28, 8:00 PM-10:00 PM",
     color: "#23262F",
     image: "/images/content/mouse-yello.svg", // Assuming the image is the same
     status: "outlined",
-    statusContent: "TBA",
+    statusContent: "Dwinelle 263",
   },
   // {
   //   title: "Design Fair",
